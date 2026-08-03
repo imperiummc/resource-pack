@@ -1,0 +1,11 @@
+{
+  "credit": "www.sebxter.pl",
+  "parent": "item/vehicles/little_bird",
+  "textures": {
+    "0": "item/vehicles/little_bird_no_rocket",
+    "1": "item/vehicles/little_bird_propeller",
+    "particle": "item/vehicles/seats_v2",
+    "1_0": "item/vehicles/seats_v2",
+    "1_1": "item/vehicles/seats_texture_v2"
+  }
+}

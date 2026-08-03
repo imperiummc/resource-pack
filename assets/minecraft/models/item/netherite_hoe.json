@@ -1,5 +1,8 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/netherite_hoe"
+  },
   "overrides": [
     {
       "predicate": {
@@ -180,9 +183,24 @@
         "custom_model_data": 30
       },
       "model": "item/guns/browning_hi_powered_pistol_silencer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "item/guns/bar_lmg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "item/guns/owen_gun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "item/guns/tec_9"
     }
-  ],
-  "textures": {
-    "layer0": "minecraft:item/netherite_hoe"
-  }
+  ]
 }

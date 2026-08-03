@@ -1,0 +1,11 @@
+{
+  "parent": "item/vehicles/dodge_demon",
+  "textures": {
+    "0": "item/vehicles/dodge_demon_battleship_grey",
+    "1": "item/vehicles/dodge_demon_tire",
+    "2": "item/vehicles/dashboard_v2",
+    "particle": "item/vehicles/seats_v2",
+    "1_0": "item/vehicles/seats_v2",
+    "1_1": "item/vehicles/seats_texture_v2"
+  }
+}

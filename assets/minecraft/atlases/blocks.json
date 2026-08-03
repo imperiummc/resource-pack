@@ -22,11 +22,6 @@
     },
     {
       "type": "directory",
-      "source": "item/item",
-      "prefix": "item/item/"
-    },
-    {
-      "type": "directory",
       "source": "item/vehicles",
       "prefix": "item/vehicles/"
     }
