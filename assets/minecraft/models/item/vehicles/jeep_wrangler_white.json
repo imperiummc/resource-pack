@@ -1,0 +1,6 @@
+{
+    "parent": "item/vehicles/jeep_wrangler",
+    "textures": {
+	"1": "item/vehicles/jeep_wrangler_white"
+    }
+}

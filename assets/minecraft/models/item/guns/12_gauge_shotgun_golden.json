@@ -1,0 +1,6 @@
+{
+    "parent": "item/guns/12_gauge_shotgun",
+    "textures": {
+	"1": "item/guns/12_gauge_shotgun_golden"
+    }
+}

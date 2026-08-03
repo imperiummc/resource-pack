@@ -1,0 +1,20 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/blaze_rod"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/items/barrel_of_gasoline"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "item/items/champagne"
+		}
+	]
+}

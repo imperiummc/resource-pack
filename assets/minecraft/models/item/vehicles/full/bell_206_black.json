@@ -1,0 +1,7 @@
+{
+    "parent": "item/vehicles/full/bell_206",
+    "textures": {
+	"0": "item/vehicles/bell_206_black",
+	"1": "item/vehicles/propeller"
+    }
+}

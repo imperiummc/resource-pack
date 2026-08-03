@@ -1,0 +1,6 @@
+{
+    "parent": "item/guns/barret_50_cal",
+    "textures": {
+	"texture": "item/guns/barret_50_cal_golden"
+    }
+}

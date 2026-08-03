@@ -1,0 +1,6 @@
+{
+    "parent": "item/vehicles/tesla_model_s",
+    "textures": {
+	"0": "item/vehicles/tesla_model_s_black"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/vehicles/m1_abram",
+    "textures": {
+		"0": "item/vehicles/no_flag",
+		"1": "item/vehicles/m1_abram"
+    }
+}

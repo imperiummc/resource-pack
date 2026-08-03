@@ -1,0 +1,6 @@
+{
+    "parent": "item/guns/ak47",
+    "textures": {
+	"1": "item/guns/ak47_golden"
+    }
+}

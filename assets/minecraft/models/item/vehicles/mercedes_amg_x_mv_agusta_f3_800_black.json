@@ -1,0 +1,6 @@
+{
+    "parent": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800",
+    "textures": {
+	"0": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800_black"
+    }
+}

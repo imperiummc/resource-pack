@@ -1,0 +1,6 @@
+{
+    "parent": "item/vehicles/full/embraer_phenom_300",
+    "textures": {
+	"0": "item/vehicles/embraer_phenom_300_black"
+    }
+}

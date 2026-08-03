@@ -1,0 +1,92 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_shovel"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/items/fire_extinguisher"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "item/items/handcuffs"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "item/items/iphone_12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "item/items/iphone_12_golden"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "item/items/mercedes_tire"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "item/items/samsung_galaxy_s20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "item/ammo/shotgun_shell"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "item/ammo/rifle_ammo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "item/ammo/light_ammo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "item/ammo/50_cal_bullet"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "item/items/magnifying_glass"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "item/items/zip_tie"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "item/items/pistol_silencer"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "item/items/electrical_screw_driver"
+		}
+	]
+}
