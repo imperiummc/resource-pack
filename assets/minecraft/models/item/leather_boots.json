@@ -1,82 +1,468 @@
 {
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/leather_boots"
-	},
-	"overrides": [
-	
-		{"predicate": {"damage": 0},"model": "item/leather_boots"},
-		{"predicate": {"damaged": 0,"damage": 0.015384615384615},"model": "item/vehicles/amg_g_wagon"},
-		{"predicate": {"damaged": 0,"damage": 0.030769230769231},"model": "item/vehicles/bell_206_black_front"},
-		{"predicate": {"damaged": 0,"damage": 0.046153846153846},"model": "item/vehicles/bell_206_black_back"},
-		{"predicate": {"damaged": 0,"damage": 0.061538461538462},"model": "item/vehicles/bmw_r1200rt"},
-		{"predicate": {"damaged": 0,"damage": 0.076923076923077},"model": "item/vehicles/cadillac_escalade_esv_2020"},
-		{"predicate": {"damaged": 0,"damage": 0.092307692307692},"model": "item/vehicles/cadillac_escalade_esv_2020_black"},
-		{"predicate": {"damaged": 0,"damage": 0.107692307692308},"model": "item/vehicles/embraer_phenom_300_black_wing_right"},
-		{"predicate": {"damaged": 0,"damage": 0.123076923076923},"model": "item/vehicles/embraer_phenom_300_black_wing_left"},
-		{"predicate": {"damaged": 0,"damage": 0.138461538461538},"model": "item/vehicles/embraer_phenom_300_black_front"},
-		{"predicate": {"damaged": 0,"damage": 0.153846153846154},"model": "item/vehicles/embraer_phenom_300_black_back"},
-		{"predicate": {"damaged": 0,"damage": 0.169230769230769},"model": "item/vehicles/embraer_phenom_300_black_center"},
-		{"predicate": {"damaged": 0,"damage": 0.184615384615385},"model": "item/vehicles/ford_f150_limited_2020"},
-		{"predicate": {"damaged": 0,"damage": 0.2},"model": "item/vehicles/ford_f150_limited_2020_gray"},
-		{"predicate": {"damaged": 0,"damage": 0.215384615384615},"model": "item/vehicles/ford_f150_limited_2020_white"},
-		{"predicate": {"damaged": 0,"damage": 0.230769230769231},"model": "item/vehicles/jeep_wrangler"},
-		{"predicate": {"damaged": 0,"damage": 0.246153846153846},"model": "item/vehicles/jeep_wrangler_white"},
-		{"predicate": {"damaged": 0,"damage": 0.261538461538462},"model": "item/vehicles/mercedes_ambulance"},
-		{"predicate": {"damaged": 0,"damage": 0.276923076923077},"model": "item/vehicles/mercedes_amg_g_r_2020"},
-		{"predicate": {"damaged": 0,"damage": 0.292307692307692},"model": "item/vehicles/mercedes_amg_g_r_2020_pro"},
-		{"predicate": {"damaged": 0,"damage": 0.307692307692308},"model": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800"},
-		{"predicate": {"damaged": 0,"damage": 0.323076923076923},"model": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800_black"},
-		{"predicate": {"damaged": 0,"damage": 0.338461538461539},"model": "item/vehicles/nissan_altima_2020"},
-		{"predicate": {"damaged": 0,"damage": 0.353846153846154},"model": "item/vehicles/nissan_altima_2020_black"},
-		{"predicate": {"damaged": 0,"damage": 0.369230769230769},"model": "item/vehicles/nissan_altima_2020_white"},
-		{"predicate": {"damaged": 0,"damage": 0.384615384615385},"model": "item/vehicles/ocelot_army_vehicle"},
-		{"predicate": {"damaged": 0,"damage": 0.4},"model": "item/vehicles/police_suv"},
-		{"predicate": {"damaged": 0,"damage": 0.415384615384615},"model": "item/vehicles/s_class_mercedes"},
-		{"predicate": {"damaged": 0,"damage": 0.430769230769231},"model": "item/vehicles/leather_boots"},
-		{"predicate": {"damaged": 0,"damage": 0.446153846153846},"model": "item/vehicles/taxi"},
-		{"predicate": {"damaged": 0,"damage": 0.461538461538462},"model": "item/vehicles/tesla_model_s"},
-		{"predicate": {"damaged": 0,"damage": 0.476923076923077},"model": "item/vehicles/tesla_model_s_black"},
-		{"predicate": {"damaged": 0,"damage": 0.492307692307692},"model": "item/vehicles/tesla_model_s_white"},
-		{"predicate": {"damaged": 0,"damage": 0.507692307692308},"model": "item/vehicles/volkswagon_bug"},	
-		{"predicate": {"damaged": 0,"damage": 0.5230769231},"model": "item/vehicles/helicopter_propeller"},
-		{"predicate": {"damaged": 0,"damage": 0.5384615385},"model": "item/vehicles/super_puma_back"},
-		{"predicate": {"damaged": 0,"damage": 0.5538461538},"model": "item/vehicles/super_puma_front"},
-		{"predicate": {"damaged": 0,"damage": 0.5692307692},"model": "item/vehicles/fire_truck_front"},
-		{"predicate": {"damaged": 0,"damage": 0.5846153846},"model": "item/vehicles/fire_truck_back"},
-		{"predicate": {"damaged": 0,"damage": 0.6},"model": "item/vehicles/f_35_lightning_ii_wing_right"},
-		{"predicate": {"damaged": 0,"damage": 0.6153846154},"model": "item/vehicles/f_35_lightning_ii_wing_left"},
-		{"predicate": {"damaged": 0,"damage": 0.6307692308},"model": "item/vehicles/f_35_lightning_ii_front"},
-		{"predicate": {"damaged": 0,"damage": 0.6461538462},"model": "item/vehicles/f_35_lightning_ii_back"},
-		{"predicate": {"damaged": 0,"damage": 0.6615384615},"model": "item/vehicles/epic_e1000_wing_right"},
-		{"predicate": {"damaged": 0,"damage": 0.6769230769},"model": "item/vehicles/epic_e1000_wing_left"},
-		{"predicate": {"damaged": 0,"damage": 0.6923076923},"model": "item/vehicles/epic_e1000_front"},
-		{"predicate": {"damaged": 0,"damage": 0.7076923077},"model": "item/vehicles/epic_e1000_back"},
-		{"predicate": {"damaged": 0,"damage": 0.7230769231},"model": "item/vehicles/embraer_phenom_300_wing_right"},
-		{"predicate": {"damaged": 0,"damage": 0.7384615385},"model": "item/vehicles/embraer_phenom_300_wing_left"},
-		{"predicate": {"damaged": 0,"damage": 0.7538461538},"model": "item/vehicles/embraer_phenom_300_front"},
-		{"predicate": {"damaged": 0,"damage": 0.7692307692},"model": "item/vehicles/embraer_phenom_300_back"},
-		{"predicate": {"damaged": 0,"damage": 0.7846153846},"model": "item/vehicles/bell_206_front"},
-		{"predicate": {"damaged": 0,"damage": 0.8},"model": "item/vehicles/bell_206_back"},
-		{"predicate": {"damaged": 0,"damage": 0.8153846154},"model": "item/vehicles/embraer_phenom_300_center"},
-		
-		{"predicate": {"damaged": 0,"damage": 0.8307692308},"model": "item/vehicles/mercedes_maybach_s600_pullman_flag_1"},
-		{"predicate": {"damaged": 0,"damage": 0.8461538462},"model": "item/vehicles/mercedes_maybach_s600_pullman_flag_2"},
-		{"predicate": {"damaged": 0,"damage": 0.8615384615},"model": "item/vehicles/mercedes_maybach_s600_pullman_flag_3"},
-		{"predicate": {"damaged": 0,"damage": 0.8769230769},"model": "item/vehicles/mercedes_maybach_s600_pullman_no_flag"},
-		{"predicate": {"damaged": 0,"damage": 0.8923076923},"model": "item/vehicles/m1_abram_flag_1"},
-		{"predicate": {"damaged": 0,"damage": 0.9076923077},"model": "item/vehicles/m1_abram_flag_2"},
-		{"predicate": {"damaged": 0,"damage": 0.9230769231},"model": "item/vehicles/m1_abram_flag_3"},
-		{"predicate": {"damaged": 0,"damage": 0.9384615385},"model": "item/vehicles/m1_abram_no_flag"},
-		{"predicate": {"damaged": 0,"damage": 0.9538461538},"model": "item/vehicles/1956_mercedes_benz_300c"},
-		{"predicate": {"damaged": 0,"damage": 0.9692307692},"model": "item/vehicles/bicycle"},
-		{"predicate": {"damaged": 0,"damage": 0.9846153846},"model": "item/vehicles/dirt_bike"},
-		
-		{
-			"predicate": {
-				"damaged": 1
-			},
-			"model": "item/leather_boots"
-		}
-	]
+  "parent": "minecraft:item/handheld",
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0
+      },
+      "model": "item/leather_boots"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.015384615384615
+      },
+      "model": "item/vehicles/amg_g_wagon"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.030769230769231
+      },
+      "model": "item/vehicles/bell_206_black_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.046153846153846
+      },
+      "model": "item/vehicles/bell_206_black_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.061538461538462
+      },
+      "model": "item/vehicles/bmw_r1200rt"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.076923076923077
+      },
+      "model": "item/vehicles/cadillac_escalade_esv_2020"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.092307692307692
+      },
+      "model": "item/vehicles/cadillac_escalade_esv_2020_black"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.107692307692308
+      },
+      "model": "item/vehicles/embraer_phenom_300_black_wing_right"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.123076923076923
+      },
+      "model": "item/vehicles/embraer_phenom_300_black_wing_left"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.138461538461538
+      },
+      "model": "item/vehicles/embraer_phenom_300_black_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.153846153846154
+      },
+      "model": "item/vehicles/embraer_phenom_300_black_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.169230769230769
+      },
+      "model": "item/vehicles/embraer_phenom_300_black_center"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.184615384615385
+      },
+      "model": "item/vehicles/ford_f150_limited_2020"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.2
+      },
+      "model": "item/vehicles/ford_f150_limited_2020_gray"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.215384615384615
+      },
+      "model": "item/vehicles/ford_f150_limited_2020_white"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.230769230769231
+      },
+      "model": "item/vehicles/jeep_wrangler"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.246153846153846
+      },
+      "model": "item/vehicles/jeep_wrangler_white"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.261538461538462
+      },
+      "model": "item/vehicles/mercedes_ambulance"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.276923076923077
+      },
+      "model": "item/vehicles/mercedes_amg_g_r_2020"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.292307692307692
+      },
+      "model": "item/vehicles/mercedes_amg_g_r_2020_pro"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.307692307692308
+      },
+      "model": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.323076923076923
+      },
+      "model": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800_black"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.338461538461539
+      },
+      "model": "item/vehicles/nissan_altima_2020"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.353846153846154
+      },
+      "model": "item/vehicles/nissan_altima_2020_black"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.369230769230769
+      },
+      "model": "item/vehicles/nissan_altima_2020_white"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.384615384615385
+      },
+      "model": "item/vehicles/ocelot_army_vehicle"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.4
+      },
+      "model": "item/vehicles/police_suv"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.415384615384615
+      },
+      "model": "item/vehicles/s_class_mercedes"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.430769230769231
+      },
+      "model": "item/vehicles/leather_boots"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.446153846153846
+      },
+      "model": "item/vehicles/taxi"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.461538461538462
+      },
+      "model": "item/vehicles/tesla_model_s"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.476923076923077
+      },
+      "model": "item/vehicles/tesla_model_s_black"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.492307692307692
+      },
+      "model": "item/vehicles/tesla_model_s_white"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.507692307692308
+      },
+      "model": "item/vehicles/volkswagon_bug"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.5230769231
+      },
+      "model": "item/vehicles/helicopter_propeller"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.5384615385
+      },
+      "model": "item/vehicles/super_puma_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.5538461538
+      },
+      "model": "item/vehicles/super_puma_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.5692307692
+      },
+      "model": "item/vehicles/fire_truck_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.5846153846
+      },
+      "model": "item/vehicles/fire_truck_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6
+      },
+      "model": "item/vehicles/f_35_lightning_ii_wing_right"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6153846154
+      },
+      "model": "item/vehicles/f_35_lightning_ii_wing_left"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6307692308
+      },
+      "model": "item/vehicles/f_35_lightning_ii_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6461538462
+      },
+      "model": "item/vehicles/f_35_lightning_ii_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6615384615
+      },
+      "model": "item/vehicles/epic_e1000_wing_right"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6769230769
+      },
+      "model": "item/vehicles/epic_e1000_wing_left"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.6923076923
+      },
+      "model": "item/vehicles/epic_e1000_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.7076923077
+      },
+      "model": "item/vehicles/epic_e1000_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.7230769231
+      },
+      "model": "item/vehicles/embraer_phenom_300_wing_right"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.7384615385
+      },
+      "model": "item/vehicles/embraer_phenom_300_wing_left"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.7538461538
+      },
+      "model": "item/vehicles/embraer_phenom_300_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.7692307692
+      },
+      "model": "item/vehicles/embraer_phenom_300_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.7846153846
+      },
+      "model": "item/vehicles/bell_206_front"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8
+      },
+      "model": "item/vehicles/bell_206_back"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8153846154
+      },
+      "model": "item/vehicles/embraer_phenom_300_center"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8307692308
+      },
+      "model": "item/vehicles/mercedes_maybach_s600_pullman_flag_1"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8461538462
+      },
+      "model": "item/vehicles/mercedes_maybach_s600_pullman_flag_2"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8615384615
+      },
+      "model": "item/vehicles/mercedes_maybach_s600_pullman_flag_3"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8769230769
+      },
+      "model": "item/vehicles/mercedes_maybach_s600_pullman_no_flag"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.8923076923
+      },
+      "model": "item/vehicles/m1_abram_flag_1"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.9076923077
+      },
+      "model": "item/vehicles/m1_abram_flag_2"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.9230769231
+      },
+      "model": "item/vehicles/m1_abram_flag_3"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.9384615385
+      },
+      "model": "item/vehicles/m1_abram_no_flag"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.9538461538
+      },
+      "model": "item/vehicles/1956_mercedes_benz_300c"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.9692307692
+      },
+      "model": "item/vehicles/bicycle"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.9846153846
+      },
+      "model": "item/vehicles/dirt_bike"
+    },
+    {
+      "predicate": {
+        "damaged": 1
+      },
+      "model": "item/leather_boots"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/leather_boots"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "item",
+      "prefix": "item/"
+    },
+    {
+      "type": "directory",
+      "source": "item/tires",
+      "prefix": "item/tires/"
+    },
+    {
+      "type": "directory",
+      "source": "item/hats",
+      "prefix": "item/hats/"
+    },
+    {
+      "type": "directory",
+      "source": "item/guns",
+      "prefix": "item/guns/"
+    },
+    {
+      "type": "directory",
+      "source": "item/item",
+      "prefix": "item/item/"
+    },
+    {
+      "type": "directory",
+      "source": "item/vehicles",
+      "prefix": "item/vehicles/"
+    }
+  ]
+}

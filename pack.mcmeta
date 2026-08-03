@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 6,
+    "pack_format": 42,
+    "supported_formats": {
+      "min_inclusive": 3,
+      "max_inclusive": 42
+    },
     "description": "§9§nplay.imperium-mc.net"
   }
 }

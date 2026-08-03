@@ -1,92 +1,92 @@
 {
-  	"parent": "minecraft:item/handheld",
-  	"textures": {
-    		"layer0": "item/golden_hoe"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1
-			},
-			"model": "item/items/2021_gold"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 2
-			},
-			"model": "item/items/2021"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 3
-			},
-			"model": "item/hats/anarcho_syndicalist_field_cap"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 4
-			},
-			"model": "item/hats/buntal_hat"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 5
-			},
-			"model": "item/hats/extra_large_hat"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 6
-			},
-			"model": "item/hats/gold_lined_tophat"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 7
-			},
-			"model": "item/hats/golden_laurel_wreath"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 8
-			},
-			"model": "item/hats/military_beret"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 9
-			},
-			"model": "item/hats/red_army_helmet"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 10
-			},
-			"model": "item/hats/genovia_crown"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 11
-			},
-			"model": "item/hats/pickelhaubes"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 12
-			},
-			"model": "item/hats/bavarian_kaiserreich_colony_hat"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 13
-			},
-			"model": "item/hats/anonymous_mask"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 14
-			},
-			"model": "item/hats/desert_beret"
-		}
-	]
+  "parent": "minecraft:item/handheld",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/items/2021_gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/items/2021"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/hats/anarcho_syndicalist_field_cap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/hats/buntal_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/hats/extra_large_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/hats/gold_lined_tophat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "item/hats/golden_laurel_wreath"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "item/hats/military_beret"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "item/hats/red_army_helmet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "item/hats/genovia_crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "item/hats/pickelhaubes"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "item/hats/bavarian_kaiserreich_colony_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "item/hats/anonymous_mask"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "item/hats/desert_beret"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/golden_hoe"
+  }
 }

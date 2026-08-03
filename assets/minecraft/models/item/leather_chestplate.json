@@ -1,47 +1,261 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/leather_chestplate",
-        "layer1": "item/leather_chestplate_overlay"
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.0125
+      },
+      "model": "item/tires/hubcap-1"
     },
-	"overrides": [
-	
-		{"predicate": {"damaged": 0, "damage":0.0125}, "model": "item/tires/hubcap-1"},
-		{"predicate": {"damaged": 0, "damage":0.025}, "model": "item/tires/hubcap-2"},
-		{"predicate": {"damaged": 0, "damage":0.0375}, "model": "item/tires/hubcap-3"},
-		{"predicate": {"damaged": 0, "damage":0.05}, "model": "item/tires/hubcap-4"},
-		{"predicate": {"damaged": 0, "damage":0.0625}, "model": "item/tires/hubcap-5"},
-		{"predicate": {"damaged": 0, "damage":0.075}, "model": "item/tires/hubcap-6"},
-		{"predicate": {"damaged": 0, "damage":0.0875}, "model": "item/tires/hubcap-7"},
-		{"predicate": {"damaged": 0, "damage":0.1}, "model": "item/tires/hubcap-8"},
-		{"predicate": {"damaged": 0, "damage":0.1125}, "model": "item/tires/hubcap-9"},
-		{"predicate": {"damaged": 0, "damage":0.125}, "model": "tires/hubcap-10"},
-		{"predicate": {"damaged": 0, "damage":0.1375}, "model": "item/vehicles/military_hummer_flag_1"},
-		{"predicate": {"damaged": 0, "damage":0.15}, "model": "item/vehicles/military_hummer_flag_2"},
-		{"predicate": {"damaged": 0, "damage":0.1625}, "model": "item/vehicles/military_hummer_flag_3"},
-		{"predicate": {"damaged": 0, "damage":0.175}, "model": "item/vehicles/military_hummer_no_flag"},
-		{"predicate": {"damaged": 0, "damage":0.1875}, "model": "item/vehicles/m1_abram_turret"},
-		{"predicate": {"damaged": 0, "damage":0.2}, "model": "item/vehicles/police_suv_militia"},
-		{"predicate": {"damaged": 0, "damage":0.2125}, "model": "item/vehicles/jackal"},
-		{"predicate": {"damaged": 0, "damage":0.225}, "model": "item/tires/jackal_tire"},
-		{"predicate": {"damaged": 0, "damage":0.2375}, "model": "item/vehicles/bearcat"},
-		{"predicate": {"damaged": 0, "damage":0.25}, "model": "item/vehicles/varchauto"},
-		{"predicate": {"damaged": 0, "damage":0.2625}, "model": "item/vehicles/bus"},
-		{"predicate": {"damaged": 0, "damage":0.275}, "model": "item/vehicles/boat"},
-		{"predicate": {"damaged": 0, "damage":0.2875}, "model": "item/vehicles/jetski"},
-		{"predicate": {"damaged": 0, "damage":0.3}, "model": "item/vehicles/metro_1"},
-		{"predicate": {"damaged": 0, "damage":0.3125}, "model": "item/vehicles/metro_2"},
-		{"predicate": {"damaged": 0, "damage":0.325}, "model": "item/vehicles/plane"},
-		{"predicate": {"damaged": 0, "damage":0.3375}, "model": "item/vehicles/full/bell_206"},
-		{"predicate": {"damaged": 0, "damage":0.35}, "model": "item/vehicles/full/bell_206_black"},
-		{"predicate": {"damaged": 0, "damage":0.3625}, "model": "item/vehicles/full/embraer_phenom_300"},
-		{"predicate": {"damaged": 0, "damage":0.375}, "model": "item/vehicles/full/embraer_phenom_300_black"},
-		{"predicate": {"damaged": 0, "damage":0.3875}, "model": "item/vehicles/full/epic_e1000"},
-		{"predicate": {"damaged": 0, "damage":0.4}, "model": "item/vehicles/full/f_35_lightning_ii"},
-		{"predicate": {"damaged": 0, "damage":0.4125}, "model": "item/vehicles/full/fire_truck"},
-		{"predicate": {"damaged": 0, "damage":0.425}, "model": "item/vehicles/full/super_puma"},
-		{"predicate": {"damaged": 0, "damage":0.4375}, "model": "item/tires/medium_tire"},
-		{"predicate": {"damaged": 0, "damage":0.45}, "model": "item/tires/bearcat_tire"}
-		
-	]
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.025
+      },
+      "model": "item/tires/hubcap-2"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.0375
+      },
+      "model": "item/tires/hubcap-3"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.05
+      },
+      "model": "item/tires/hubcap-4"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.0625
+      },
+      "model": "item/tires/hubcap-5"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.075
+      },
+      "model": "item/tires/hubcap-6"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.0875
+      },
+      "model": "item/tires/hubcap-7"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.1
+      },
+      "model": "item/tires/hubcap-8"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.1125
+      },
+      "model": "item/tires/hubcap-9"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.125
+      },
+      "model": "tires/hubcap-10"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.1375
+      },
+      "model": "item/vehicles/military_hummer_flag_1"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.15
+      },
+      "model": "item/vehicles/military_hummer_flag_2"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.1625
+      },
+      "model": "item/vehicles/military_hummer_flag_3"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.175
+      },
+      "model": "item/vehicles/military_hummer_no_flag"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.1875
+      },
+      "model": "item/vehicles/m1_abram_turret"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.2
+      },
+      "model": "item/vehicles/police_suv_militia"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.2125
+      },
+      "model": "item/vehicles/jackal"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.225
+      },
+      "model": "item/tires/jackal_tire"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.2375
+      },
+      "model": "item/vehicles/bearcat"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.25
+      },
+      "model": "item/vehicles/varchauto"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.2625
+      },
+      "model": "item/vehicles/bus"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.275
+      },
+      "model": "item/vehicles/boat"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.2875
+      },
+      "model": "item/vehicles/jetski"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.3
+      },
+      "model": "item/vehicles/metro_1"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.3125
+      },
+      "model": "item/vehicles/metro_2"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.325
+      },
+      "model": "item/vehicles/plane"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.3375
+      },
+      "model": "item/vehicles/full/bell_206"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.35
+      },
+      "model": "item/vehicles/full/bell_206_black"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.3625
+      },
+      "model": "item/vehicles/full/embraer_phenom_300"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.375
+      },
+      "model": "item/vehicles/full/embraer_phenom_300_black"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.3875
+      },
+      "model": "item/vehicles/full/epic_e1000"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.4
+      },
+      "model": "item/vehicles/full/f_35_lightning_ii"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.4125
+      },
+      "model": "item/vehicles/full/fire_truck"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.425
+      },
+      "model": "item/vehicles/full/super_puma"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.4375
+      },
+      "model": "item/tires/medium_tire"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.45
+      },
+      "model": "item/tires/bearcat_tire"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/leather_chestplate",
+    "layer1": "minecraft:item/leather_chestplate_overlay"
+  }
 }

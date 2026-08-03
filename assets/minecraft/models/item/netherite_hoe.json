@@ -1,188 +1,188 @@
 {
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/netherite_hoe"
-	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 1
-			},
-			"model": "item/guns/12_gauge_shotgun"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 2
-			},
-			"model": "item/guns/12_gauge_shotgun_golden"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 3
-			},
-			"model": "item/guns/ak47"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 4
-			},
-			"model": "item/guns/ak47_golden"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 5
-			},
-			"model": "item/guns/ar_15"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 6
-			},
-			"model": "item/guns/barret_50_cal"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 7
-			},
-			"model": "item/guns/barret_50_cal_golden"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 8
-			},
-			"model": "item/guns/browning_m2_50_cal"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 9
-			},
-			"model": "item/guns/desert_eagle"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 10
-			},
-			"model": "item/guns/desert_eagle_golden"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 11
-			},
-			"model": "item/guns/glock_22"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 12
-			},
-			"model": "item/guns/m6a2"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 13
-			},
-			"model": "item/guns/musket_with_bayonet"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 14
-			},
-			"model": "item/guns/taser"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 15
-			},
-			"model": "item/guns/mp5k"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 16
-			},
-			"model": "item/guns/rocket_launcher"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 17
-			},
-			"model": "item/guns/tommy_gun"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 18
-			},
-			"model": "item/items/grenade"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 19
-			},
-			"model": "item/items/flashbang"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 20
-			},
-			"model": "item/guns/ar_15_blue"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 21
-			},
-			"model": "item/guns/ar_15_blue_no_logo"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 22
-			},
-			"model": "item/items/molotov_cocktail"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 23
-			},
-			"model": "item/items/rocket"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 24
-			},
-			"model": "item/guns/grenade_launch"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 25
-			},
-			"model": "item/guns/grenade_launch_sean"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 26
-			},
-			"model": "item/guns/mosin"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 27
-			},
-			"model": "item/guns/fnal"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 28
-			},
-			"model": "item/guns/dragonuv"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 29
-			},
-			"model": "item/guns/browning_hi_powered_pistol_no_silencer"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 30
-			},
-			"model": "item/guns/browning_hi_powered_pistol_silencer"
-		}
-	]
+  "parent": "minecraft:item/handheld",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/guns/12_gauge_shotgun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/guns/12_gauge_shotgun_golden"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/guns/ak47"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/guns/ak47_golden"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/guns/ar_15"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/guns/barret_50_cal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "item/guns/barret_50_cal_golden"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "item/guns/browning_m2_50_cal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "item/guns/desert_eagle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "item/guns/desert_eagle_golden"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "item/guns/glock_22"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "item/guns/m6a2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "item/guns/musket_with_bayonet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "item/guns/taser"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "item/guns/mp5k"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "item/guns/rocket_launcher"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/guns/tommy_gun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "item/items/grenade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "item/items/flashbang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "item/guns/ar_15_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "item/guns/ar_15_blue_no_logo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "item/items/molotov_cocktail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "item/items/rocket"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "item/guns/grenade_launch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "item/guns/grenade_launch_sean"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "item/guns/mosin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "item/guns/fnal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "item/guns/dragonuv"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "item/guns/browning_hi_powered_pistol_no_silencer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "item/guns/browning_hi_powered_pistol_silencer"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/netherite_hoe"
+  }
 }

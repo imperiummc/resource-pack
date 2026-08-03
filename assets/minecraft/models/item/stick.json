@@ -1,10 +1,14 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/stick"
-    },
-	
-	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "item/items/body_bag"}
-	]
+  "parent": "minecraft:item/handheld",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/items/body_bag"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  }
 }
