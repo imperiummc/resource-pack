@@ -123,7 +123,7 @@
     }
   },
   "textures": {
-    "layer0": "item/shield",
-    "particle": "item/shield"
+    "layer0": "item/items/riot_shield",
+    "particle": "item/items/riot_shield"
   }
 }
