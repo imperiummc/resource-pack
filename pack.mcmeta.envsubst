@@ -1,10 +1,6 @@
 {
   "pack": {
-    "pack_format": 42,
-    "supported_formats": {
-      "min_inclusive": 3,
-      "max_inclusive": 42
-    },
+    "pack_format": 8,
     "description": "\u00A79ImperiumMC Resource Pack\u00A7r 2.0\n\u00A78${GITHUB_SHA}"
   }
 }
