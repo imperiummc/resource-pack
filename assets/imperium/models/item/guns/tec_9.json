@@ -1,8 +1,8 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/items/grenade",
-    "particle": "imperium:item/items/grenade"
+    "layer0": "imperium:item/grenade",
+    "particle": "imperium:item/grenade"
   },
   "elements": [
     {

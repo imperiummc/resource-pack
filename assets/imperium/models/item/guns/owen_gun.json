@@ -1,8 +1,8 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/items/electrical_screw_driver",
-    "particle": "imperium:item/items/electrical_screw_driver"
+    "layer0": "imperium:item/electrical_screw_driver",
+    "particle": "imperium:item/electrical_screw_driver"
   },
   "elements": [
     {

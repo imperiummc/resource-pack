@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer1": "imperium:item/items/traffic_lights",
-    "particle": "imperium:item/items/traffic_lights"
+    "layer1": "imperium:item/traffic_lights",
+    "particle": "imperium:item/traffic_lights"
   },
   "elements": [
     {

@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer1": "imperium:item/items/iphone_12_logo",
-    "layer2": "imperium:item/items/iphone_12",
-    "particle": "imperium:item/items/iphone_12_logo"
+    "layer1": "imperium:item/iphone_12_logo",
+    "layer2": "imperium:item/iphone_12",
+    "particle": "imperium:item/iphone_12_logo"
   },
   "elements": [
     {

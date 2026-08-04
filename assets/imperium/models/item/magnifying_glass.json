@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer0": "imperium:item/items/magnifying_glass",
-    "particle": "imperium:item/items/magnifying_glass"
+    "layer0": "imperium:item/magnifying_glass",
+    "particle": "imperium:item/magnifying_glass"
   },
   "elements": [
     {

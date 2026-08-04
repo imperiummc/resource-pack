@@ -5,9 +5,9 @@
     32
   ],
   "textures": {
-    "layer0": "imperium:item/items/2021_gold",
-    "layer1": "imperium:item/items/2021_gold_texture",
-    "particle": "imperium:item/items/2021_gold"
+    "layer0": "imperium:item/2021_gold",
+    "layer1": "imperium:item/2021_gold_texture",
+    "particle": "imperium:item/2021_gold"
   },
   "elements": [
     {

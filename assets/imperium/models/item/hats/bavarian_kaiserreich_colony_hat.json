@@ -5,9 +5,9 @@
     8
   ],
   "textures": {
-    "layer0": "imperium:item/items/riot_shield",
-    "layer1": "imperium:item/items/riot_shield_logo",
-    "particle": "imperium:item/items/riot_shield"
+    "layer0": "imperium:item/riot_shield",
+    "layer1": "imperium:item/riot_shield_logo",
+    "particle": "imperium:item/riot_shield"
   },
   "elements": [
     {
