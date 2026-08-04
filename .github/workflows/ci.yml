@@ -38,7 +38,7 @@ jobs:
         with:
           name: ImperiumMC ${{ github.ref_name }}
           files: |
-            assets/
+            assets/**
             pack.mcmeta
             pack.png
           draft: true
