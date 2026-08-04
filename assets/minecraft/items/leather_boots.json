@@ -202,8 +202,8 @@
       {
         "threshold": 0.430769230769231,
         "model": {
-          "model": "item/leather_boots",
-          "type": "model"
+          "model": "imperium:item/leather_boots",
+          "type": "minecraft:model"
         }
       },
       {

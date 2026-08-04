@@ -1,27 +1,20 @@
 {
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "special",
-      "base": "minecraft:item/shield",
-      "model": {
-        "type": "shield"
-      }
-    },
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
     "entries": [
       {
         "threshold": 1,
         "model": {
-          "type": "condition",
-          "property": "using_item",
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
           "on_false": {
-            "type": "model",
-            "model": "item/items/riot_shield"
+            "type": "minecraft:model",
+            "model": "imperium:item/riot_shield"
           },
           "on_true": {
-            "type": "model",
-            "model": "item/items/riot_shield_blocking"
+            "type": "minecraft:model",
+            "model": "imperium:item/riot_shield_blocking"
           }
         }
       }

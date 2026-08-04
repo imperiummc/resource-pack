@@ -69,8 +69,8 @@
       {
         "threshold": 0.125,
         "model": {
-          "model": "item/tires/hubcap-10",
-          "type": "model"
+          "model": "imperium:item/tires/hubcap-10",
+          "type": "minecraft:model"
         }
       },
       {
