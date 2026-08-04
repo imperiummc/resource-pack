@@ -15,18 +15,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
 
-      - name: Prepare pack.mcmeta
+      - name: pack.mcmeta
         run: |
           GITHUB_SHA=$(git rev-parse --short ${{ github.sha }})
-          envsubst '${GITHUB_SHA}' < pack.mcmeta.envsubst > pack.mcmeta
+          tmp="$(mktemp)"
+          envsubst '${GITHUB_SHA}' <pack.mcmeta >"$tmp" && mv "$tmp" pack.mcmeta
 
       - name: Upload
         uses: actions/upload-artifact@v7
         with:
-          name: ImperiumMC Resource Pack
+          name: ImperiumMC ${{ github.ref_name }}-${{ github.sha }}
           path: |
             assets/
             pack.mcmeta
@@ -37,7 +36,7 @@ jobs:
         uses: softprops/action-gh-release@v3
         if: ${{ github.ref_type == 'tag' || github.event_name == 'workflow_dispatch' }}
         with:
-          name: ImperiumMC Resource Pack
+          name: ImperiumMC ${{ github.ref_name }}
           files: |
             assets/
             pack.mcmeta
