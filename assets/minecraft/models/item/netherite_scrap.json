@@ -1,8 +1,5 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "item/netherite_scrap"
-  },
+  "parent": "minecraft:item/generated",
   "overrides": [
     {
       "predicate": {
@@ -10,5 +7,8 @@
       },
       "model": "item/items/gas_can"
     }
-  ]
+  ],
+  "textures": {
+    "layer0": "minecraft:item/netherite_scrap"
+  }
 }

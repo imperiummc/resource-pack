@@ -1,8 +1,5 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "item/stick"
-  },
+  "parent": "minecraft:item/handheld",
   "overrides": [
     {
       "predicate": {
@@ -10,5 +7,8 @@
       },
       "model": "item/items/body_bag"
     }
-  ]
+  ],
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  }
 }

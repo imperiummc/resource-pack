@@ -1,8 +1,5 @@
 {
   "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "item/golden_hoe"
-  },
   "overrides": [
     {
       "predicate": {
@@ -88,5 +85,8 @@
       },
       "model": "item/hats/desert_beret"
     }
-  ]
+  ],
+  "textures": {
+    "layer0": "minecraft:item/golden_hoe"
+  }
 }

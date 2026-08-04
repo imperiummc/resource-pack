@@ -1,8 +1,5 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "item/netherite_hoe"
-  },
+  "parent": "minecraft:item/handheld",
   "overrides": [
     {
       "predicate": {
@@ -202,5 +199,8 @@
       },
       "model": "item/guns/tec_9"
     }
-  ]
+  ],
+  "textures": {
+    "layer0": "minecraft:item/netherite_hoe"
+  }
 }

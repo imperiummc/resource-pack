@@ -1,8 +1,5 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "item/leather_boots"
-  },
+  "parent": "minecraft:item/handheld",
   "overrides": [
     {
       "predicate": {
@@ -464,5 +461,8 @@
       },
       "model": "item/leather_boots"
     }
-  ]
+  ],
+  "textures": {
+    "layer0": "minecraft:item/leather_boots"
+  }
 }
