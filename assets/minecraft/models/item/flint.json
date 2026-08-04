@@ -2,49 +2,5 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/flint"
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "item/ammo/50_cal_bullet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "item/ammo/light_ammo"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
-      },
-      "model": "item/ammo/rifle_ammo"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4
-      },
-      "model": "item/ammo/shotgun_shell"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5
-      },
-      "model": "item/ammo/lazy_dog_bomb"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 6
-      },
-      "model": "item/ammo/mark_nine_nuke"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 7
-      },
-      "model": "item/ammo/napalm_bomb"
-    }
-  ]
+  }
 }

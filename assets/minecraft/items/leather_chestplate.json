@@ -1,0 +1,292 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "damage",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/leather_chestplate"
+    },
+    "entries": [
+      {
+        "threshold": 0.0125,
+        "model": {
+          "model": "item/tires/hubcap-1",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.025,
+        "model": {
+          "model": "item/tires/hubcap-2",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.0375,
+        "model": {
+          "model": "item/tires/hubcap-3",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.05,
+        "model": {
+          "model": "item/tires/hubcap-4",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.0625,
+        "model": {
+          "model": "item/tires/hubcap-5",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.075,
+        "model": {
+          "model": "item/tires/hubcap-6",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.0875,
+        "model": {
+          "model": "item/tires/hubcap-7",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.1,
+        "model": {
+          "model": "item/tires/hubcap-8",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.1125,
+        "model": {
+          "model": "item/tires/hubcap-9",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.125,
+        "model": {
+          "model": "tires/hubcap-10",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.1375,
+        "model": {
+          "model": "item/vehicles/military_hummer_flag_1",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.15,
+        "model": {
+          "model": "item/vehicles/military_hummer_flag_2",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.1625,
+        "model": {
+          "model": "item/vehicles/military_hummer_flag_3",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.175,
+        "model": {
+          "model": "item/vehicles/military_hummer_no_flag",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.1875,
+        "model": {
+          "model": "item/vehicles/m1_abram_turret",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.2,
+        "model": {
+          "model": "item/vehicles/police_suv_militia",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.2125,
+        "model": {
+          "model": "item/vehicles/jackal",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.225,
+        "model": {
+          "model": "item/tires/jackal_tire",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.2375,
+        "model": {
+          "model": "item/vehicles/bearcat",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.25,
+        "model": {
+          "model": "item/vehicles/varchauto",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.2625,
+        "model": {
+          "model": "item/vehicles/bus",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.275,
+        "model": {
+          "model": "item/vehicles/boat",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.2875,
+        "model": {
+          "model": "item/vehicles/jetski",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.3,
+        "model": {
+          "model": "item/vehicles/metro_1",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.3125,
+        "model": {
+          "model": "item/vehicles/metro_2",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.325,
+        "model": {
+          "model": "item/vehicles/plane",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.3375,
+        "model": {
+          "model": "item/vehicles/full/bell_206",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.35,
+        "model": {
+          "model": "item/vehicles/full/bell_206_black",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.3625,
+        "model": {
+          "model": "item/vehicles/full/embraer_phenom_300",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.375,
+        "model": {
+          "model": "item/vehicles/full/embraer_phenom_300_black",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.3875,
+        "model": {
+          "model": "item/vehicles/full/epic_e1000",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.4,
+        "model": {
+          "model": "item/vehicles/full/f_35_lightning_ii",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.4125,
+        "model": {
+          "model": "item/vehicles/full/fire_truck",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.425,
+        "model": {
+          "model": "item/vehicles/full/super_puma",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.4375,
+        "model": {
+          "model": "item/tires/medium_tire",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.45,
+        "model": {
+          "model": "item/tires/bearcat_tire",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.4625,
+        "model": {
+          "model": "item/vehicles/dodge_demon",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.475,
+        "model": {
+          "model": "item/vehicles/dodge_demon_battleship_grey",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.4875,
+        "model": {
+          "model": "item/vehicles/little_bird",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.5,
+        "model": {
+          "model": "item/vehicles/little_bird_no_rocket",
+          "type": "model"
+        }
+      }
+    ]
+  }
+}

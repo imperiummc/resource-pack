@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:block/dark_oak_planks"
+    },
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "model": "item/shield",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0,
+        "model": {
+          "model": "item/shield_blocking",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "model": "item/items/riot_shield",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "model": "item/items/riot_shield_blocking",
+          "type": "model"
+        }
+      }
+    ]
+  }
+}

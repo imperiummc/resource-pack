@@ -122,34 +122,6 @@
       ]
     }
   },
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 0
-      },
-      "model": "item/shield"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 0,
-        "blocking": 1
-      },
-      "model": "item/shield_blocking"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "item/items/riot_shield"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 1,
-        "blocking": 1
-      },
-      "model": "item/items/riot_shield_blocking"
-    }
-  ],
   "textures": {
     "particle": "minecraft:block/dark_oak_planks"
   }

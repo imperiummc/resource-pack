@@ -1,0 +1,110 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/netherite_shovel"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "model": "item/items/fire_extinguisher",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "model": "item/items/handcuffs",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "model": "item/items/iphone_12",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "model": "item/items/iphone_12_golden",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "model": "item/items/mercedes_tire",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "model": "item/items/samsung_galaxy_s20",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "model": "item/ammo/shotgun_shell",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "model": "item/ammo/rifle_ammo",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "model": "item/ammo/light_ammo",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "model": "item/ammo/50_cal_bullet",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "model": "item/items/magnifying_glass",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "model": "item/items/zip_tie",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "model": "item/items/pistol_silencer",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "model": "item/items/electrical_screw_driver",
+          "type": "model"
+        }
+      }
+    ]
+  }
+}

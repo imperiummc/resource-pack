@@ -1,0 +1,467 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "damage",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/leather_boots"
+    },
+    "entries": [
+      {
+        "threshold": 0.0,
+        "model": {
+          "model": "item/leather_boots",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.015384615384615,
+        "model": {
+          "model": "item/vehicles/amg_g_wagon",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.030769230769231,
+        "model": {
+          "model": "item/vehicles/bell_206_black_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.046153846153846,
+        "model": {
+          "model": "item/vehicles/bell_206_black_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.061538461538462,
+        "model": {
+          "model": "item/vehicles/bmw_r1200rt",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.076923076923077,
+        "model": {
+          "model": "item/vehicles/cadillac_escalade_esv_2020",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.092307692307692,
+        "model": {
+          "model": "item/vehicles/cadillac_escalade_esv_2020_black",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.107692307692308,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_black_wing_right",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.123076923076923,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_black_wing_left",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.138461538461538,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_black_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.153846153846154,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_black_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.169230769230769,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_black_center",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.184615384615385,
+        "model": {
+          "model": "item/vehicles/ford_f150_limited_2020",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.2,
+        "model": {
+          "model": "item/vehicles/ford_f150_limited_2020_gray",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.215384615384615,
+        "model": {
+          "model": "item/vehicles/ford_f150_limited_2020_white",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.230769230769231,
+        "model": {
+          "model": "item/vehicles/jeep_wrangler",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.246153846153846,
+        "model": {
+          "model": "item/vehicles/jeep_wrangler_white",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.261538461538462,
+        "model": {
+          "model": "item/vehicles/mercedes_ambulance",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.276923076923077,
+        "model": {
+          "model": "item/vehicles/mercedes_amg_g_r_2020",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.292307692307692,
+        "model": {
+          "model": "item/vehicles/mercedes_amg_g_r_2020_pro",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.307692307692308,
+        "model": {
+          "model": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.323076923076923,
+        "model": {
+          "model": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800_black",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.338461538461539,
+        "model": {
+          "model": "item/vehicles/nissan_altima_2020",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.353846153846154,
+        "model": {
+          "model": "item/vehicles/nissan_altima_2020_black",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.369230769230769,
+        "model": {
+          "model": "item/vehicles/nissan_altima_2020_white",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.384615384615385,
+        "model": {
+          "model": "item/vehicles/ocelot_army_vehicle",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.4,
+        "model": {
+          "model": "item/vehicles/police_suv",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.415384615384615,
+        "model": {
+          "model": "item/vehicles/s_class_mercedes",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.430769230769231,
+        "model": {
+          "model": "item/vehicles/leather_boots",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.446153846153846,
+        "model": {
+          "model": "item/vehicles/taxi",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.461538461538462,
+        "model": {
+          "model": "item/vehicles/tesla_model_s",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.476923076923077,
+        "model": {
+          "model": "item/vehicles/tesla_model_s_black",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.492307692307692,
+        "model": {
+          "model": "item/vehicles/tesla_model_s_white",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.507692307692308,
+        "model": {
+          "model": "item/vehicles/volkswagon_bug",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.5230769231,
+        "model": {
+          "model": "item/vehicles/helicopter_propeller",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.5384615385,
+        "model": {
+          "model": "item/vehicles/super_puma_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.5538461538,
+        "model": {
+          "model": "item/vehicles/super_puma_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.5692307692,
+        "model": {
+          "model": "item/vehicles/fire_truck_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.5846153846,
+        "model": {
+          "model": "item/vehicles/fire_truck_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6,
+        "model": {
+          "model": "item/vehicles/f_35_lightning_ii_wing_right",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6153846154,
+        "model": {
+          "model": "item/vehicles/f_35_lightning_ii_wing_left",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6307692308,
+        "model": {
+          "model": "item/vehicles/f_35_lightning_ii_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6461538462,
+        "model": {
+          "model": "item/vehicles/f_35_lightning_ii_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6615384615,
+        "model": {
+          "model": "item/vehicles/epic_e1000_wing_right",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6769230769,
+        "model": {
+          "model": "item/vehicles/epic_e1000_wing_left",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.6923076923,
+        "model": {
+          "model": "item/vehicles/epic_e1000_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.7076923077,
+        "model": {
+          "model": "item/vehicles/epic_e1000_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.7230769231,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_wing_right",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.7384615385,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_wing_left",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.7538461538,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.7692307692,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.7846153846,
+        "model": {
+          "model": "item/vehicles/bell_206_front",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8,
+        "model": {
+          "model": "item/vehicles/bell_206_back",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8153846154,
+        "model": {
+          "model": "item/vehicles/embraer_phenom_300_center",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8307692308,
+        "model": {
+          "model": "item/vehicles/mercedes_maybach_s600_pullman_flag_1",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8461538462,
+        "model": {
+          "model": "item/vehicles/mercedes_maybach_s600_pullman_flag_2",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8615384615,
+        "model": {
+          "model": "item/vehicles/mercedes_maybach_s600_pullman_flag_3",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8769230769,
+        "model": {
+          "model": "item/vehicles/mercedes_maybach_s600_pullman_no_flag",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.8923076923,
+        "model": {
+          "model": "item/vehicles/m1_abram_flag_1",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.9076923077,
+        "model": {
+          "model": "item/vehicles/m1_abram_flag_2",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.9230769231,
+        "model": {
+          "model": "item/vehicles/m1_abram_flag_3",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.9384615385,
+        "model": {
+          "model": "item/vehicles/m1_abram_no_flag",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.9538461538,
+        "model": {
+          "model": "item/vehicles/1956_mercedes_benz_300c",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.9692307692,
+        "model": {
+          "model": "item/vehicles/bicycle",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 0.9846153846,
+        "model": {
+          "model": "item/vehicles/dirt_bike",
+          "type": "model"
+        }
+      }
+    ]
+  }
+}

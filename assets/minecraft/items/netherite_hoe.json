@@ -1,0 +1,243 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/netherite_hoe"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "model": "item/guns/12_gauge_shotgun",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "model": "item/guns/12_gauge_shotgun_golden",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "model": "item/guns/ak47",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "model": "item/guns/ak47_golden",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "model": "item/guns/ar_15",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "model": "item/guns/barret_50_cal",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "model": "item/guns/barret_50_cal_golden",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "model": "item/guns/browning_m2_50_cal",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "model": "item/guns/desert_eagle",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "model": "item/guns/desert_eagle_golden",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "model": "item/guns/glock_22",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "model": "item/guns/m6a2",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "model": "item/guns/musket_with_bayonet",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "model": "item/guns/taser",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "model": "item/guns/mp5k",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "model": "item/guns/rocket_launcher",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "model": "item/guns/tommy_gun",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "model": "item/items/grenade",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "model": "item/items/flashbang",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "model": "item/guns/ar_15_blue",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "model": "item/guns/ar_15_blue_no_logo",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "model": "item/items/molotov_cocktail",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "model": "item/items/rocket",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "model": "item/guns/grenade_launch",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "model": "item/guns/grenade_launch_sean",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "model": "item/guns/mosin",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "model": "item/guns/fnal",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "model": "item/guns/dragonuv",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "model": "item/guns/browning_hi_powered_pistol_no_silencer",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "model": "item/guns/browning_hi_powered_pistol_silencer",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "model": "item/guns/bar_lmg",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "model": "item/guns/owen_gun",
+          "type": "model"
+        }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "model": "item/guns/tec_9",
+          "type": "model"
+        }
+      }
+    ]
+  }
+}

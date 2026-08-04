@@ -1,19 +1,5 @@
 {
   "parent": "minecraft:item/generated",
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "item/items/barrel_of_gasoline"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "item/items/champagne"
-    }
-  ],
   "textures": {
     "layer0": "minecraft:item/blaze_rod"
   }

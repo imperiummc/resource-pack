@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/netherite_scrap"
+    },
+    "entries": [
+      {
+        "threshold": 9801003,
+        "model": {
+          "model": "item/items/gas_can",
+          "type": "model"
+        }
+      }
+    ]
+  }
+}
