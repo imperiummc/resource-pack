@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "\u00A79ImperiumMC Resource Pack\u00A7r 2.3\nplay.imperium-mc.net \u00A78${GITHUB_SHA}",
+    "description": "\u00A79ImperiumMC Resource Pack\u00A7r 2.3\n\u00A7rplay.imperium-mc.net \u00A78${GITHUB_SHA}",
     "min_format": 88,
     "max_format": 88
   }
