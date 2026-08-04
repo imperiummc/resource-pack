@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/guns/barret_50_cal",
+  "textures": {
+    "texture": "imperium:item/guns/barret_50_cal_golden"
+  }
+}

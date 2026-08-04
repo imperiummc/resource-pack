@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/vehicles/nissan_altima_2020",
+  "textures": {
+    "layer0": "imperium:item/vehicles/nissan_altima_2020_black"
+  }
+}

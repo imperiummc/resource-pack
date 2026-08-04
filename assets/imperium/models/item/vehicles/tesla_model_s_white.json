@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/vehicles/tesla_model_s",
+  "textures": {
+    "layer0": "imperium:item/vehicles/tesla_model_s_white"
+  }
+}

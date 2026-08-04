@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "special",
+      "base": "minecraft:item/shield",
+      "model": {
+        "type": "shield"
+      }
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "item/items/riot_shield"
+          },
+          "on_true": {
+            "type": "model",
+            "model": "item/items/riot_shield_blocking"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/shield",
+      "model": {
+        "type": "minecraft:shield"
+      }
+    }
+  }
+}

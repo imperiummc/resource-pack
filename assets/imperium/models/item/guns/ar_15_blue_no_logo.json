@@ -1,0 +1,7 @@
+{
+  "parent": "imperium:item/guns/ar_15_blue",
+  "textures": {
+    "layer1": "imperium:item/guns/ar_15_blue",
+    "layer2": "imperium:item/guns/ar_15_blue_logo"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/vehicles/ford_f150_limited_2020",
+  "textures": {
+    "layer1": "imperium:item/vehicles/ford_f150_limited_2020_white"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/vehicles/bell_206_front",
+  "textures": {
+    "layer0": "imperium:item/vehicles/bell_206_black"
+  }
+}

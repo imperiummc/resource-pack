@@ -1,0 +1,11 @@
+{
+  "parent": "imperium:item/vehicles/dodge_demon",
+  "textures": {
+    "layer0": "imperium:item/vehicles/dodge_demon_battleship_grey",
+    "layer1": "imperium:item/vehicles/dodge_demon_tire",
+    "layer2": "imperium:item/vehicles/dashboard_v2",
+    "particle": "imperium:item/vehicles/seats_v2",
+    "1_0": "imperium:item/vehicles/seats_v2",
+    "1_1": "imperium:item/vehicles/seats_texture_v2"
+  }
+}

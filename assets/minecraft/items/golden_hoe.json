@@ -1,0 +1,110 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "model": "imperium:item/2021_gold",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "model": "imperium:item/2021",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "model": "imperium:item/hats/anarcho_syndicalist_field_cap",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "model": "imperium:item/hats/buntal_hat",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "model": "imperium:item/hats/extra_large_hat",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "model": "imperium:item/hats/gold_lined_tophat",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "model": "imperium:item/hats/golden_laurel_wreath",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "model": "imperium:item/hats/military_beret",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "model": "imperium:item/hats/red_army_helmet",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "model": "imperium:item/hats/genovia_crown",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "model": "imperium:item/hats/pickelhaubes",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "model": "imperium:item/hats/bavarian_kaiserreich_colony_hat",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "model": "imperium:item/hats/anonymous_mask",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "model": "imperium:item/hats/desert_beret",
+          "type": "minecraft:model"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_hoe"
+    }
+  }
+}

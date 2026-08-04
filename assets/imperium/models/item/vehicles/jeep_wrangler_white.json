@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/vehicles/jeep_wrangler",
+  "textures": {
+    "layer1": "imperium:item/vehicles/jeep_wrangler_white"
+  }
+}

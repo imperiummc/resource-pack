@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/guns/12_gauge_shotgun",
+  "textures": {
+    "layer1": "imperium:item/guns/12_gauge_shotgun_golden"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "imperium:item/vehicles/military_hummer",
+  "textures": {
+    "layer0": "imperium:item/vehicles/military_hummer",
+    "layer1": "imperium:item/vehicles/no_flag"
+  }
+}
