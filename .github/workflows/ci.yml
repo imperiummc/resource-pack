@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Prepare pack.mcmeta
-        run: envsubst '${GITHUB_SHA}' < pack.mcmeta.envsubst > pack.mcmeta
+        run: envsubst '${GITHUB_SHA:0:7}' < pack.mcmeta.envsubst > pack.mcmeta
         env:
           GITHUB_SHA: ${{ github.sha }}
 
