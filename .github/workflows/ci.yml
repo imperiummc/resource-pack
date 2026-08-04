@@ -1,0 +1,47 @@
+name: CI
+
+on: [push, workflow_dispatch]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Prepare pack.mcmeta
+        run: envsubst '${GITHUB_SHA}' < pack.mcmeta.envsubst > pack.mcmeta
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+
+      - name: Upload
+        uses: actions/upload-artifact@v7
+        with:
+          name: ImperiumMC Resource Pack
+          path: |
+            assets/
+            pack.mcmeta
+            pack.png
+          if-no-files-found: error
+
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        if: ${{ github.ref_type == "tag" || github.event_name == "workflow_dispatch" }}
+        with:
+          name: ImperiumMC Resource Pack
+          files: |
+            assets/
+            pack.mcmeta
+            pack.png
+          draft: true
+          fail_on_unmatched_files: true
+          generate_release_notes: true

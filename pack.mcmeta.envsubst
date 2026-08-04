@@ -5,6 +5,6 @@
       "min_inclusive": 3,
       "max_inclusive": 42
     },
-    "description": "§9§nplay.imperium-mc.net"
+    "description": "\u00A79ImperiumMC Resource Pack\u00A7r 2.0\n\u00A78${GITHUB_SHA}"
   }
 }
