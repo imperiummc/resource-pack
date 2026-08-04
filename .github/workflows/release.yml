@@ -1,0 +1,24 @@
+name: Release
+
+on:
+  push:
+    branches: ["trunk"]
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  upload:
+    name: Generate Resource Pack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Create ImperiumMC.zip
+        uses: actions/upload-artifact@v7
+        with:
+          name: ImperiumMC
+          path: |
+            pack.png
+            pack.mcmeta
+            assets/
+          if-no-files-found: error
