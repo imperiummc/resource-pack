@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 8,
-    "description": "§9ImperiumMC Resource Pack §7v2.2\n§7play.imperium-mc.net"
+    "pack_format": 75.0,
+    "description": "§9ImperiumMC Resource Pack §7v2.2\n§7play.imperium-mc.net",
+    "min_format": 65.0,
+    "max_format": 75.0
   }
 }
