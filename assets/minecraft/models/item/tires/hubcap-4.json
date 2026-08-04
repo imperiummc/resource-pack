@@ -1,7 +1,0 @@
-{
-  "parent": "item/tires/tire-model",
-  "textures": {
-    "particle": "item/tires/tire-texture",
-    "texture2": "item/tires/hubcap-4"
-  }
-}

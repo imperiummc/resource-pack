@@ -1,0 +1,7 @@
+{
+  "parent": "imperium:item/tires/tire-model",
+  "textures": {
+    "particle": "imperium:item/tires/tire-texture",
+    "texture2": "imperium:item/tires/hubcap-9"
+  }
+}

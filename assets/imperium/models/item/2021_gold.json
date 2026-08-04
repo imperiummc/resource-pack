@@ -1,0 +1,7 @@
+{
+  "parent": "imperium:item/2021",
+  "textures": {
+    "layer0": "imperium:item/2021_silver",
+    "layer1": "imperium:item/2021_silver_texture"
+  }
+}

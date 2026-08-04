@@ -1,61 +1,61 @@
 {
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "minecraft:item/flint"
-    },
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
     "entries": [
       {
         "threshold": 1,
         "model": {
-          "model": "item/ammo/50_cal_bullet",
-          "type": "model"
+          "model": "imperium:item/ammo/50_cal_bullet",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 2,
         "model": {
-          "model": "item/ammo/light_ammo",
-          "type": "model"
+          "model": "imperium:item/ammo/light_ammo",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 3,
         "model": {
-          "model": "item/ammo/rifle_ammo",
-          "type": "model"
+          "model": "imperium:item/ammo/rifle_ammo",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 4,
         "model": {
-          "model": "item/ammo/shotgun_shell",
-          "type": "model"
+          "model": "imperium:item/ammo/shotgun_shell",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 5,
         "model": {
-          "model": "item/ammo/lazy_dog_bomb",
-          "type": "model"
+          "model": "imperium:item/ammo/lazy_dog_bomb",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 6,
         "model": {
-          "model": "item/ammo/mark_nine_nuke",
-          "type": "model"
+          "model": "imperium:item/ammo/mark_nine_nuke",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 7,
         "model": {
-          "model": "item/ammo/napalm_bomb",
-          "type": "model"
+          "model": "imperium:item/ammo/napalm_bomb",
+          "type": "minecraft:model"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/flint"
+    }
   }
 }

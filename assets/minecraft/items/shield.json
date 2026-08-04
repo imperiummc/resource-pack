@@ -25,6 +25,13 @@
           }
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/shield",
+      "model": {
+        "type": "minecraft:shield"
+      }
+    }
   }
 }

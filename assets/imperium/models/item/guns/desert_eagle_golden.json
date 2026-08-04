@@ -1,0 +1,6 @@
+{
+  "parent": "imperium:item/guns/desert_eagle",
+  "textures": {
+    "texture": "imperium:item/guns/desert_eagle_golden"
+  }
+}

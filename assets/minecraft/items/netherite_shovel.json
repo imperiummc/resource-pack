@@ -1,110 +1,110 @@
 {
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "minecraft:item/netherite_shovel"
-    },
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
     "entries": [
       {
         "threshold": 1,
         "model": {
-          "model": "item/items/fire_extinguisher",
-          "type": "model"
+          "model": "imperium:item/fire_extinguisher",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 2,
         "model": {
-          "model": "item/items/handcuffs",
-          "type": "model"
+          "model": "imperium:item/handcuffs",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 3,
         "model": {
-          "model": "item/items/iphone_12",
-          "type": "model"
+          "model": "imperium:item/iphone_12",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 4,
         "model": {
-          "model": "item/items/iphone_12_golden",
-          "type": "model"
+          "model": "imperium:item/iphone_12_golden",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 5,
         "model": {
-          "model": "item/items/mercedes_tire",
-          "type": "model"
+          "model": "imperium:item/mercedes_tire",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 6,
         "model": {
-          "model": "item/items/samsung_galaxy_s20",
-          "type": "model"
+          "model": "imperium:item/samsung_galaxy_s20",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 7,
         "model": {
-          "model": "item/ammo/shotgun_shell",
-          "type": "model"
+          "model": "imperium:item/ammo/shotgun_shell",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 8,
         "model": {
-          "model": "item/ammo/rifle_ammo",
-          "type": "model"
+          "model": "imperium:item/ammo/rifle_ammo",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 9,
         "model": {
-          "model": "item/ammo/light_ammo",
-          "type": "model"
+          "model": "imperium:item/ammo/light_ammo",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 10,
         "model": {
-          "model": "item/ammo/50_cal_bullet",
-          "type": "model"
+          "model": "imperium:item/ammo/50_cal_bullet",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 11,
         "model": {
-          "model": "item/items/magnifying_glass",
-          "type": "model"
+          "model": "imperium:item/magnifying_glass",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 12,
         "model": {
-          "model": "item/items/zip_tie",
-          "type": "model"
+          "model": "imperium:item/zip_tie",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 13,
         "model": {
-          "model": "item/items/pistol_silencer",
-          "type": "model"
+          "model": "imperium:item/pistol_silencer",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 14,
         "model": {
-          "model": "item/items/electrical_screw_driver",
-          "type": "model"
+          "model": "imperium:item/electrical_screw_driver",
+          "type": "minecraft:model"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_shovel"
+    }
   }
 }

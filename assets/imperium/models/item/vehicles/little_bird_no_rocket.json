@@ -1,0 +1,11 @@
+{
+  "credit": "www.sebxter.pl",
+  "parent": "imperium:item/vehicles/little_bird",
+  "textures": {
+    "layer0": "imperium:item/vehicles/little_bird_no_rocket",
+    "layer1": "imperium:item/vehicles/little_bird_propeller",
+    "particle": "imperium:item/vehicles/seats_v2",
+    "1_0": "imperium:item/vehicles/seats_v2",
+    "1_1": "imperium:item/vehicles/seats_texture_v2"
+  }
+}

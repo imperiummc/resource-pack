@@ -1,0 +1,7 @@
+{
+  "parent": "imperium:item/vehicles/mercedes_maybach_s600_pullman",
+  "textures": {
+    "layer0": "imperium:item/vehicles/mercedes_maybach_s600_pullman_no_flag",
+    "layer1": "imperium:item/vehicles/no_flag"
+  }
+}

@@ -1,243 +1,243 @@
 {
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "minecraft:item/netherite_hoe"
-    },
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
     "entries": [
       {
         "threshold": 1,
         "model": {
-          "model": "item/guns/12_gauge_shotgun",
-          "type": "model"
+          "model": "imperium:item/guns/12_gauge_shotgun",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 2,
         "model": {
-          "model": "item/guns/12_gauge_shotgun_golden",
-          "type": "model"
+          "model": "imperium:item/guns/12_gauge_shotgun_golden",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 3,
         "model": {
-          "model": "item/guns/ak47",
-          "type": "model"
+          "model": "imperium:item/guns/ak47",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 4,
         "model": {
-          "model": "item/guns/ak47_golden",
-          "type": "model"
+          "model": "imperium:item/guns/ak47_golden",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 5,
         "model": {
-          "model": "item/guns/ar_15",
-          "type": "model"
+          "model": "imperium:item/guns/ar_15",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 6,
         "model": {
-          "model": "item/guns/barret_50_cal",
-          "type": "model"
+          "model": "imperium:item/guns/barret_50_cal",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 7,
         "model": {
-          "model": "item/guns/barret_50_cal_golden",
-          "type": "model"
+          "model": "imperium:item/guns/barret_50_cal_golden",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 8,
         "model": {
-          "model": "item/guns/browning_m2_50_cal",
-          "type": "model"
+          "model": "imperium:item/guns/browning_m2_50_cal",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 9,
         "model": {
-          "model": "item/guns/desert_eagle",
-          "type": "model"
+          "model": "imperium:item/guns/desert_eagle",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 10,
         "model": {
-          "model": "item/guns/desert_eagle_golden",
-          "type": "model"
+          "model": "imperium:item/guns/desert_eagle_golden",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 11,
         "model": {
-          "model": "item/guns/glock_22",
-          "type": "model"
+          "model": "imperium:item/guns/glock_22",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 12,
         "model": {
-          "model": "item/guns/m6a2",
-          "type": "model"
+          "model": "imperium:item/guns/m6a2",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 13,
         "model": {
-          "model": "item/guns/musket_with_bayonet",
-          "type": "model"
+          "model": "imperium:item/guns/musket_with_bayonet",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 14,
         "model": {
-          "model": "item/guns/taser",
-          "type": "model"
+          "model": "imperium:item/guns/taser",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 15,
         "model": {
-          "model": "item/guns/mp5k",
-          "type": "model"
+          "model": "imperium:item/guns/mp5k",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 16,
         "model": {
-          "model": "item/guns/rocket_launcher",
-          "type": "model"
+          "model": "imperium:item/guns/rocket_launcher",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 17,
         "model": {
-          "model": "item/guns/tommy_gun",
-          "type": "model"
+          "model": "imperium:item/guns/tommy_gun",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 18,
         "model": {
-          "model": "item/items/grenade",
-          "type": "model"
+          "model": "imperium:imperium:item/grenade",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 19,
         "model": {
-          "model": "item/items/flashbang",
-          "type": "model"
+          "model": "imperium:imperium:item/flashbang",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 20,
         "model": {
-          "model": "item/guns/ar_15_blue",
-          "type": "model"
+          "model": "imperium:item/guns/ar_15_blue",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 21,
         "model": {
-          "model": "item/guns/ar_15_blue_no_logo",
-          "type": "model"
+          "model": "imperium:item/guns/ar_15_blue_no_logo",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 22,
         "model": {
-          "model": "item/items/molotov_cocktail",
-          "type": "model"
+          "model": "imperium:imperium:item/molotov_cocktail",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 23,
         "model": {
-          "model": "item/items/rocket",
-          "type": "model"
+          "model": "imperium:imperium:item/rocket",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 24,
         "model": {
-          "model": "item/guns/grenade_launch",
-          "type": "model"
+          "model": "imperium:item/guns/grenade_launch",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 25,
         "model": {
-          "model": "item/guns/grenade_launch_sean",
-          "type": "model"
+          "model": "imperium:item/guns/grenade_launch_sean",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 26,
         "model": {
-          "model": "item/guns/mosin",
-          "type": "model"
+          "model": "imperium:item/guns/mosin",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 27,
         "model": {
-          "model": "item/guns/fnal",
-          "type": "model"
+          "model": "imperium:item/guns/fnal",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 28,
         "model": {
-          "model": "item/guns/dragonuv",
-          "type": "model"
+          "model": "imperium:item/guns/dragonuv",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 29,
         "model": {
-          "model": "item/guns/browning_hi_powered_pistol_no_silencer",
-          "type": "model"
+          "model": "imperium:item/guns/browning_hi_powered_pistol_no_silencer",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 30,
         "model": {
-          "model": "item/guns/browning_hi_powered_pistol_silencer",
-          "type": "model"
+          "model": "imperium:item/guns/browning_hi_powered_pistol_silencer",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 31,
         "model": {
-          "model": "item/guns/bar_lmg",
-          "type": "model"
+          "model": "imperium:item/guns/bar_lmg",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 32,
         "model": {
-          "model": "item/guns/owen_gun",
-          "type": "model"
+          "model": "imperium:item/guns/owen_gun",
+          "type": "minecraft:model"
         }
       },
       {
         "threshold": 33,
         "model": {
-          "model": "item/guns/tec_9",
-          "type": "model"
+          "model": "imperium:item/guns/tec_9",
+          "type": "minecraft:model"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_hoe"
+    }
   }
 }
