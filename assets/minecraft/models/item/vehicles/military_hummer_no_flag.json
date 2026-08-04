@@ -1,7 +1,7 @@
 {
-    "parent": "item/vehicles/military_hummer",
-    "textures": {
-		"0": "item/vehicles/military_hummer",
-		"1": "item/vehicles/no_flag"
-    }
+  "parent": "item/vehicles/military_hummer",
+  "textures": {
+    "0": "item/vehicles/military_hummer",
+    "1": "item/vehicles/no_flag"
+  }
 }

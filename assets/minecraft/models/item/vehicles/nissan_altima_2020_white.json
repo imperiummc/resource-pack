@@ -1,6 +1,6 @@
 {
-    "parent": "item/vehicles/nissan_altima_2020",
-    "textures": {
-	"0": "item/vehicles/nissan_altima_2020_white"
-    }
+  "parent": "item/vehicles/nissan_altima_2020",
+  "textures": {
+    "0": "item/vehicles/nissan_altima_2020_white"
+  }
 }

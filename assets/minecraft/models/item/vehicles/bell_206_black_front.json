@@ -1,6 +1,6 @@
 {
-    "parent": "item/vehicles/bell_206_front",
-    "textures": {
-		"0": "item/vehicles/bell_206_black"
-    }
+  "parent": "item/vehicles/bell_206_front",
+  "textures": {
+    "0": "item/vehicles/bell_206_black"
+  }
 }

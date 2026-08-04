@@ -1,7 +1,7 @@
 {
-    "parent": "item/vehicles/mercedes_maybach_s600_pullman",
-    "textures": {
-		"0": "item/vehicles/mercedes_maybach_s600_pullman_no_flag",
-		"1": "item/vehicles/no_flag"
-    }
+  "parent": "item/vehicles/mercedes_maybach_s600_pullman",
+  "textures": {
+    "0": "item/vehicles/mercedes_maybach_s600_pullman_no_flag",
+    "1": "item/vehicles/no_flag"
+  }
 }

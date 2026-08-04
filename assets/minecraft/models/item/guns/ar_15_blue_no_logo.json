@@ -1,7 +1,7 @@
 {
-    "parent": "item/guns/ar_15_blue",
-    "textures": {
-		"1": "item/guns/ar_15_blue",
-		"2": "item/guns/ar_15_blue_logo"
-    }
+  "parent": "item/guns/ar_15_blue",
+  "textures": {
+    "1": "item/guns/ar_15_blue",
+    "2": "item/guns/ar_15_blue_logo"
+  }
 }

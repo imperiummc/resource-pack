@@ -1,7 +1,7 @@
 {
-    "parent": "item/vehicles/bell_206_back",
-    "textures": {
-		"0": "item/vehicles/bell_206_black",
-		"1": "item/vehicles/propeller"
-    }
+  "parent": "item/vehicles/bell_206_back",
+  "textures": {
+    "0": "item/vehicles/bell_206_black",
+    "1": "item/vehicles/propeller"
+  }
 }

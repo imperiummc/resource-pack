@@ -1,6 +1,6 @@
 {
-    "parent": "item/vehicles/embraer_phenom_300_wing_right",
-    "textures": {
-		"0": "item/vehicles/embraer_phenom_300_black"
-    }
+  "parent": "item/vehicles/embraer_phenom_300_wing_right",
+  "textures": {
+    "0": "item/vehicles/embraer_phenom_300_black"
+  }
 }

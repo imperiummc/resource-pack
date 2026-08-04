@@ -1,6 +1,6 @@
 {
-    "parent": "item/vehicles/cadillac_escalade_esv_2020",
-    "textures": {
-	"0": "item/vehicles/cadillac_escalade_esv_2020_black"
-    }
+  "parent": "item/vehicles/cadillac_escalade_esv_2020",
+  "textures": {
+    "0": "item/vehicles/cadillac_escalade_esv_2020_black"
+  }
 }
