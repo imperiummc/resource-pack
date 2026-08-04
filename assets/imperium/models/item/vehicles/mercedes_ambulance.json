@@ -1,11 +1,11 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/mercedes_ambulance",
-    "2": "item/vehicles/mercedes_ambulance_textures",
-    "3": "item/vehicles/mercedes_ambulance_logo",
-    "4": "item/vehicles/mercedes_ambulance_front",
-    "particle": "item/vehicles/mercedes_ambulance"
+    "layer0": "imperium:item/vehicles/mercedes_ambulance",
+    "layer2": "imperium:item/vehicles/mercedes_ambulance_textures",
+    "layer3": "imperium:item/vehicles/mercedes_ambulance_logo",
+    "layer4": "imperium:item/vehicles/mercedes_ambulance_front",
+    "particle": "imperium:item/vehicles/mercedes_ambulance"
   },
   "elements": [
     {

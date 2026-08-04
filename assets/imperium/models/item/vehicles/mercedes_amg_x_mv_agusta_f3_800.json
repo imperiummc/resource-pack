@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800",
-    "particle": "item/vehicles/mercedes_amg_x_mv_agusta_f3_800"
+    "layer0": "imperium:item/vehicles/mercedes_amg_x_mv_agusta_f3_800",
+    "particle": "imperium:item/vehicles/mercedes_amg_x_mv_agusta_f3_800"
   },
   "elements": [
     {

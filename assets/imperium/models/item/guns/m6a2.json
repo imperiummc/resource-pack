@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/guns/m6a2",
-    "particle": "item/guns/m6a2"
+    "layer1": "imperium:item/guns/m6a2",
+    "particle": "imperium:item/guns/m6a2"
   },
   "elements": [
     {

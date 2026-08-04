@@ -5,9 +5,9 @@
     128
   ],
   "textures": {
-    "1": "item/items/iphone_12_logo",
-    "2": "item/items/iphone_12",
-    "particle": "item/items/iphone_12_logo"
+    "layer1": "imperium:item/items/iphone_12_logo",
+    "layer2": "imperium:item/items/iphone_12",
+    "particle": "imperium:item/items/iphone_12_logo"
   },
   "elements": [
     {

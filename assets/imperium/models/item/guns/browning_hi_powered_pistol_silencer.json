@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/guns/browning_hi_powered_pistol_silencer",
-    "particle": "item/guns/browning_hi_powered_pistol_silencer"
+    "layer0": "imperium:item/guns/browning_hi_powered_pistol_silencer",
+    "particle": "imperium:item/guns/browning_hi_powered_pistol_silencer"
   },
   "elements": [
     {

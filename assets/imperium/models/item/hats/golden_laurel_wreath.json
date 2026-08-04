@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/hats/golden_laurel_wreath",
-    "particle": "item/hats/golden_laurel_wreath"
+    "layer0": "imperium:item/hats/golden_laurel_wreath",
+    "particle": "imperium:item/hats/golden_laurel_wreath"
   },
   "elements": [
     {

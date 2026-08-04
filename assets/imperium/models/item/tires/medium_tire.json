@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/tires/medium_tire",
-    "particle": "item/tires/medium_tire"
+    "layer0": "imperium:item/tires/medium_tire",
+    "particle": "imperium:item/tires/medium_tire"
   },
   "elements": [
     {

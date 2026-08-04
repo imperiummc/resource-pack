@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/items/zip_tie",
-    "particle": "item/items/zip_tie"
+    "layer0": "imperium:item/items/zip_tie",
+    "particle": "imperium:item/items/zip_tie"
   },
   "elements": [
     {

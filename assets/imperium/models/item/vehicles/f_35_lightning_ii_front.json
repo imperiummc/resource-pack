@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/vehicles/f_35_lightning_ii",
-    "particle": "item/vehicles/f_35_lightning_ii"
+    "layer1": "imperium:item/vehicles/f_35_lightning_ii",
+    "particle": "imperium:item/vehicles/f_35_lightning_ii"
   },
   "elements": [
     {

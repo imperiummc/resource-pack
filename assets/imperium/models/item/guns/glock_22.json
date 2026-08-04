@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/guns/glock_22",
-    "particle": "item/guns/glock_22"
+    "layer1": "imperium:item/guns/glock_22",
+    "particle": "imperium:item/guns/glock_22"
   },
   "elements": [
     {

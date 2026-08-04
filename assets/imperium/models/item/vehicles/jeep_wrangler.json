@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/vehicles/jeep_wrangler",
-    "particle": "item/vehicles/jeep_wrangler"
+    "layer1": "imperium:item/vehicles/jeep_wrangler",
+    "particle": "imperium:item/vehicles/jeep_wrangler"
   },
   "elements": [
     {

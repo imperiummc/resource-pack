@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/hats/desert_beret",
-    "1": "item/hats/desert_beret_logo",
-    "particle": "item/hats/desert_beret"
+    "layer0": "imperium:item/hats/desert_beret",
+    "layer1": "imperium:item/hats/desert_beret_logo",
+    "particle": "imperium:item/hats/desert_beret"
   },
   "elements": [
     {

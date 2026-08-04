@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/embraer_phenom_300",
-    "particle": "item/vehicles/embraer_phenom_300"
+    "layer0": "imperium:item/vehicles/embraer_phenom_300",
+    "particle": "imperium:item/vehicles/embraer_phenom_300"
   },
   "elements": [
     {

@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/jackal",
-    "1": "item/vehicles/jackal_logo",
-    "particle": "item/vehicles/jackal"
+    "layer0": "imperium:item/vehicles/jackal",
+    "layer1": "imperium:item/vehicles/jackal_logo",
+    "particle": "imperium:item/vehicles/jackal"
   },
   "elements": [
     {

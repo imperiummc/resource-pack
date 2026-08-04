@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/flag",
-    "1": "item/vehicles/m1_abram",
-    "particle": "item/vehicles/flag"
+    "layer0": "imperium:item/vehicles/flag",
+    "layer1": "imperium:item/vehicles/m1_abram",
+    "particle": "imperium:item/vehicles/flag"
   },
   "elements": [
     {

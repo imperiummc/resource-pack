@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/1956_mercedes_benz_300c",
-    "particle": "item/vehicles/1956_mercedes_benz_300c"
+    "layer0": "imperium:item/vehicles/1956_mercedes_benz_300c",
+    "particle": "imperium:item/vehicles/1956_mercedes_benz_300c"
   },
   "elements": [
     {

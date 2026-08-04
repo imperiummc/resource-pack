@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/bell_206",
-    "particle": "item/vehicles/bell_206"
+    "layer0": "imperium:item/vehicles/bell_206",
+    "particle": "imperium:item/vehicles/bell_206"
   },
   "elements": [
     {

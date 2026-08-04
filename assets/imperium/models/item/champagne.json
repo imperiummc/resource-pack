@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/items/champagne",
-    "particle": "item/items/champagne"
+    "layer1": "imperium:item/items/champagne",
+    "particle": "imperium:item/items/champagne"
   },
   "elements": [
     {

@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/s_class_mercedes",
-    "particle": "item/vehicles/s_class_mercedes"
+    "layer0": "imperium:item/vehicles/s_class_mercedes",
+    "particle": "imperium:item/vehicles/s_class_mercedes"
   },
   "elements": [
     {

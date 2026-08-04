@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/guns/musket_with_bayonet",
-    "particle": "item/guns/musket_with_bayonet"
+    "layer0": "imperium:item/guns/musket_with_bayonet",
+    "particle": "imperium:item/guns/musket_with_bayonet"
   },
   "elements": [
     {

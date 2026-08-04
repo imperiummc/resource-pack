@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/vehicles/amg_g_wagon",
-    "particle": "item/vehicles/amg_g_wagon"
+    "layer1": "imperium:item/vehicles/amg_g_wagon",
+    "particle": "imperium:item/vehicles/amg_g_wagon"
   },
   "elements": [
     {

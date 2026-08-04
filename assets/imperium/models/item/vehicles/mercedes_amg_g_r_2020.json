@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/mercedes_amg_g_r_2020",
-    "particle": "item/vehicles/mercedes_amg_g_r_2020"
+    "layer0": "imperium:item/vehicles/mercedes_amg_g_r_2020",
+    "particle": "imperium:item/vehicles/mercedes_amg_g_r_2020"
   },
   "elements": [
     {

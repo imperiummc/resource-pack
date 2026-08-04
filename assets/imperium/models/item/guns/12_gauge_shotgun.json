@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/guns/12_gauge_shotgun",
-    "particle": "item/guns/12_gauge_shotgun"
+    "layer1": "imperium:item/guns/12_gauge_shotgun",
+    "particle": "imperium:item/guns/12_gauge_shotgun"
   },
   "elements": [
     {

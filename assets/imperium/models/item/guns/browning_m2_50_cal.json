@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/guns/browning_m2_50_cal",
-    "particle": "item/guns/browning_m2_50_cal"
+    "layer0": "imperium:item/guns/browning_m2_50_cal",
+    "particle": "imperium:item/guns/browning_m2_50_cal"
   },
   "elements": [
     {

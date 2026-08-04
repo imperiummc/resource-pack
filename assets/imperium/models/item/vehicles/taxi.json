@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/vehicles/taxi",
-    "1": "item/vehicles/taxi_logo_top",
-    "particle": "item/vehicles/taxi"
+    "layer0": "imperium:item/vehicles/taxi",
+    "layer1": "imperium:item/vehicles/taxi_logo_top",
+    "particle": "imperium:item/vehicles/taxi"
   },
   "elements": [
     {

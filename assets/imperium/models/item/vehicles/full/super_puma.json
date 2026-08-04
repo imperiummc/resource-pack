@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/vehicles/super_puma",
-    "2": "item/vehicles/propeller",
-    "particle": "item/vehicles/super_puma"
+    "layer1": "imperium:item/vehicles/super_puma",
+    "layer2": "imperium:item/vehicles/propeller",
+    "particle": "imperium:item/vehicles/super_puma"
   },
   "elements": [
     {
