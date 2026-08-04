@@ -4,7 +4,8 @@
     "0": "item/vehicles/mercedes_ambulance",
     "2": "item/vehicles/mercedes_ambulance_textures",
     "3": "item/vehicles/mercedes_ambulance_logo",
-    "4": "item/vehicles/mercedes_ambulance_front"
+    "4": "item/vehicles/mercedes_ambulance_front",
+    "particle": "item/vehicles/mercedes_ambulance"
   },
   "elements": [
     {

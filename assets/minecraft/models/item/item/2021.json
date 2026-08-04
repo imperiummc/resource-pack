@@ -6,7 +6,8 @@
   ],
   "textures": {
     "0": "item/items/2021_gold",
-    "1": "item/items/2021_gold_texture"
+    "1": "item/items/2021_gold_texture",
+    "particle": "item/items/2021_gold"
   },
   "elements": [
     {

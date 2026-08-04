@@ -2,7 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "texture": "item/vehicles/bmw_r1200rt",
-    "icons": "item/vehicles/bmw_r1200rt_icon"
+    "icons": "item/vehicles/bmw_r1200rt_icon",
+    "particle": "item/vehicles/bmw_r1200rt"
   },
   "elements": [
     {

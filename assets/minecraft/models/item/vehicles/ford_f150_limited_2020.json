@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/vehicles/ford_f150_limited_2020"
+    "1": "item/vehicles/ford_f150_limited_2020",
+    "particle": "item/vehicles/ford_f150_limited_2020"
   },
   "elements": [
     {

@@ -2,7 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "1": "item/vehicles/super_puma",
-    "2": "item/vehicles/propeller"
+    "2": "item/vehicles/propeller",
+    "particle": "item/vehicles/super_puma"
   },
   "elements": [
     {

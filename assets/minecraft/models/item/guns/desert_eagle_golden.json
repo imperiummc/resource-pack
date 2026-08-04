@@ -1,6 +1,7 @@
 {
   "parent": "item/guns/desert_eagle",
   "textures": {
-    "texture": "item/guns/desert_eagle_golden"
+    "texture": "item/guns/desert_eagle_golden",
+    "particle": "item/guns/desert_eagle_golden"
   }
 }

@@ -2,7 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "item/vehicles/taxi",
-    "1": "item/vehicles/taxi_logo_top"
+    "1": "item/vehicles/taxi_logo_top",
+    "particle": "item/vehicles/taxi"
   },
   "elements": [
     {

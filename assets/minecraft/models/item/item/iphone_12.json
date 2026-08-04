@@ -6,7 +6,8 @@
   ],
   "textures": {
     "1": "item/items/iphone_12_logo",
-    "2": "item/items/iphone_12"
+    "2": "item/items/iphone_12",
+    "particle": "item/items/iphone_12_logo"
   },
   "elements": [
     {

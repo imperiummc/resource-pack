@@ -206,7 +206,7 @@
       {
         "threshold": 0.430769230769231,
         "model": {
-          "model": "item/vehicles/leather_boots",
+          "model": "item/leather_boots",
           "type": "model"
         }
       },

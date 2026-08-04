@@ -1,6 +1,7 @@
 {
   "parent": "item/vehicles/mercedes_amg_g_r_2020",
   "textures": {
-    "0": "item/vehicles/mercedes_amg_g_r_2020_pro"
+    "0": "item/vehicles/mercedes_amg_g_r_2020_pro",
+    "particle": "item/vehicles/mercedes_amg_g_r_2020_pro"
   }
 }

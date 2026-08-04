@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/items/pistol_silencer"
+    "0": "item/items/pistol_silencer",
+    "particle": "item/items/pistol_silencer"
   },
   "elements": [
     {

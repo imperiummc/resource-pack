@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/items/gas_can"
+    "1": "item/items/gas_can",
+    "particle": "item/items/gas_can"
   },
   "elements": [
     {

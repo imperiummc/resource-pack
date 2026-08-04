@@ -1,6 +1,7 @@
 {
   "parent": "item/vehicles/nissan_altima_2020",
   "textures": {
-    "0": "item/vehicles/nissan_altima_2020_black"
+    "0": "item/vehicles/nissan_altima_2020_black",
+    "particle": "item/vehicles/nissan_altima_2020_black"
   }
 }

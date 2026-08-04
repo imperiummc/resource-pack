@@ -6,7 +6,8 @@
   ],
   "textures": {
     "0": "item/vehicles/vrachauto",
-    "1": "item/vehicles/vrachauto_banner"
+    "1": "item/vehicles/vrachauto_banner",
+    "particle": "item/vehicles/vrachauto"
   },
   "elements": [
     {

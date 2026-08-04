@@ -2,6 +2,7 @@
   "parent": "item/items/2021",
   "textures": {
     "0": "item/items/2021_silver",
-    "1": "item/items/2021_silver_texture"
+    "1": "item/items/2021_silver_texture",
+    "particle": "item/items/2021_silver"
   }
 }

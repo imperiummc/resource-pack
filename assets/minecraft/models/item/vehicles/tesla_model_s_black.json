@@ -1,6 +1,7 @@
 {
   "parent": "item/vehicles/tesla_model_s",
   "textures": {
-    "0": "item/vehicles/tesla_model_s_black"
+    "0": "item/vehicles/tesla_model_s_black",
+    "particle": "item/vehicles/tesla_model_s_black"
   }
 }

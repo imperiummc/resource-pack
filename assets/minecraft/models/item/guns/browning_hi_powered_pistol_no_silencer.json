@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/guns/browning_hi_powered_pistol_no_silencer"
+    "0": "item/guns/browning_hi_powered_pistol_no_silencer",
+    "particle": "item/guns/browning_hi_powered_pistol_no_silencer"
   },
   "elements": [
     {

@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/hats/buntal_hat"
+    "0": "item/hats/buntal_hat",
+    "particle": "item/hats/buntal_hat"
   },
   "elements": [
     {

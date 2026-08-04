@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/items/light_ammo"
+    "0": "item/items/light_ammo",
+    "particle": "item/items/light_ammo"
   },
   "elements": [
     {

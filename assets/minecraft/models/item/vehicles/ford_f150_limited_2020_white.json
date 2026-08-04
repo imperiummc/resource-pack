@@ -1,6 +1,7 @@
 {
   "parent": "item/vehicles/ford_f150_limited_2020",
   "textures": {
-    "1": "item/vehicles/ford_f150_limited_2020_white"
+    "1": "item/vehicles/ford_f150_limited_2020_white",
+    "particle": "item/vehicles/ford_f150_limited_2020_white"
   }
 }

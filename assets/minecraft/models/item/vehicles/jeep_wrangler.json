@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "item/vehicles/jeep_wrangler"
+    "1": "item/vehicles/jeep_wrangler",
+    "particle": "item/vehicles/jeep_wrangler"
   },
   "elements": [
     {

@@ -6,7 +6,8 @@
   ],
   "textures": {
     "1": "item/guns/ar_15_blue",
-    "2": "item/guns/ar_15_blue_logo_2"
+    "2": "item/guns/ar_15_blue_logo_2",
+    "particle": "item/guns/ar_15_blue"
   },
   "elements": [
     {

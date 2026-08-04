@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/items/electrical_screw_driver"
+    "0": "item/items/electrical_screw_driver",
+    "particle": "item/items/electrical_screw_driver"
   },
   "elements": [
     {

@@ -2,7 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "item/vehicles/jackal",
-    "1": "item/vehicles/jackal_logo"
+    "1": "item/vehicles/jackal_logo",
+    "particle": "item/vehicles/jackal"
   },
   "elements": [
     {

@@ -6,7 +6,8 @@
   ],
   "textures": {
     "0": "item/items/barrel_of_gasoline",
-    "1": "item/items/barrel_of_gasoline_text"
+    "1": "item/items/barrel_of_gasoline_text",
+    "particle": "item/items/barrel_of_gasoline"
   },
   "elements": [
     {

@@ -2,6 +2,7 @@
   "parent": "item/vehicles/mercedes_maybach_s600_pullman",
   "textures": {
     "0": "item/vehicles/mercedes_maybach_s600_pullman",
-    "1": "item/vehicles/flag_3"
+    "1": "item/vehicles/flag_3",
+    "particle": "item/vehicles/mercedes_maybach_s600_pullman"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/leather_boots"
+    "layer0": "minecraft:item/leather_boots",
+    "particle": "minecraft:item/leather_boots"
   }
 }

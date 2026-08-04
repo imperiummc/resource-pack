@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/items/body_bag"
+    "0": "item/items/body_bag",
+    "particle": "item/items/body_bag"
   },
   "elements": [
     {

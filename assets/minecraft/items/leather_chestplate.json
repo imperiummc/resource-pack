@@ -73,7 +73,7 @@
       {
         "threshold": 0.125,
         "model": {
-          "model": "tires/hubcap-10",
+          "model": "item/tires/hubcap-10",
           "type": "model"
         }
       },

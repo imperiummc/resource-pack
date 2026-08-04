@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "item/items/50_cal_bullet"
+    "0": "item/items/50_cal_bullet",
+    "particle": "item/items/50_cal_bullet"
   },
   "elements": [
     {

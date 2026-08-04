@@ -6,7 +6,8 @@
   ],
   "textures": {
     "0": "item/vehicles/bearcat",
-    "1": "item/vehicles/bearcat_bars"
+    "1": "item/vehicles/bearcat_bars",
+    "particle": "item/vehicles/bearcat"
   },
   "elements": [
     {
