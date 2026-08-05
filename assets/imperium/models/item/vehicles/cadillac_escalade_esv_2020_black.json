@@ -1,6 +1,6 @@
 {
   "parent": "imperium:item/vehicles/cadillac_escalade_esv_2020",
   "textures": {
-    "layer0": "imperium:item/vehicles/cadillac_escalade_esv_2020_black"
+    "0": "imperium:item/vehicles/cadillac_escalade_esv_2020_black"
   }
 }

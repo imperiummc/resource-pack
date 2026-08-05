@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer0": "imperium:item/ceremonial_sword",
-    "layer1": "imperium:item/ceremonial_sword_logo",
+    "0": "imperium:item/ceremonial_sword",
+    "1": "imperium:item/ceremonial_sword_logo",
     "particle": "imperium:item/ceremonial_sword"
   },
   "elements": [

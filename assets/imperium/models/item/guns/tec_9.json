@@ -1,7 +1,7 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/grenade",
+    "0": "imperium:item/grenade",
     "particle": "imperium:item/grenade"
   },
   "elements": [
@@ -7555,7 +7555,7 @@
   },
   "groups": [
     {
-      "name": "layer2",
+      "name": "2",
       "origin": [
         0.15806,
         -0.01694,
@@ -7571,7 +7571,7 @@
       ]
     },
     {
-      "name": "layer3",
+      "name": "3",
       "origin": [
         0,
         0,
@@ -7586,7 +7586,7 @@
       ]
     },
     {
-      "name": "layer4",
+      "name": "4",
       "origin": [
         2.57536,
         11.97528,
@@ -7601,7 +7601,7 @@
       ]
     },
     {
-      "name": "layer5",
+      "name": "5",
       "origin": [
         0,
         0,
@@ -7615,7 +7615,7 @@
       ]
     },
     {
-      "name": "layer6",
+      "name": "6",
       "origin": [
         -8.21748,
         12.85771,
@@ -7632,7 +7632,7 @@
       ]
     },
     {
-      "name": "layer7",
+      "name": "7",
       "origin": [
         0,
         0,
@@ -7650,7 +7650,7 @@
       ]
     },
     {
-      "name": "layer8",
+      "name": "8",
       "origin": [
         -4.25411,
         9.38712,
@@ -7685,7 +7685,7 @@
       ]
     },
     {
-      "name": "layer9",
+      "name": "9",
       "origin": [
         -11.08586,
         17.26064,

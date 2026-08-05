@@ -5,8 +5,8 @@
     64
   ],
   "textures": {
-    "layer0": "imperium:item/barrel_of_gasoline",
-    "layer1": "imperium:item/barrel_of_gasoline_text",
+    "0": "imperium:item/barrel_of_gasoline",
+    "1": "imperium:item/barrel_of_gasoline_text",
     "particle": "imperium:item/barrel_of_gasoline"
   },
   "elements": [

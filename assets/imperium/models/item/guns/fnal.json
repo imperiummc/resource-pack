@@ -1,7 +1,7 @@
 {
   "credit": "Designed by SebxteRv2 with Cubik Studio - https://cubik.studio",
   "textures": {
-    "layer0": "imperium:item/guns/fnal",
+    "0": "imperium:item/guns/fnal",
     "particle": "imperium:item/guns/fnal"
   },
   "elements": [

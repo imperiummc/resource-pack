@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer1": "imperium:item/guns/ak47",
+    "1": "imperium:item/guns/ak47",
     "particle": "imperium:item/guns/ak47"
   },
   "elements": [

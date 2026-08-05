@@ -1,6 +1,6 @@
 {
   "parent": "imperium:item/guns/ak47",
   "textures": {
-    "layer1": "imperium:item/guns/ak47_golden"
+    "1": "imperium:item/guns/ak47_golden"
   }
 }

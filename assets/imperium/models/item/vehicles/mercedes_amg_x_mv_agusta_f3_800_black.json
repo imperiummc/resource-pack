@@ -1,6 +1,6 @@
 {
   "parent": "imperium:item/vehicles/mercedes_amg_x_mv_agusta_f3_800",
   "textures": {
-    "layer0": "imperium:item/vehicles/mercedes_amg_x_mv_agusta_f3_800_black"
+    "0": "imperium:item/vehicles/mercedes_amg_x_mv_agusta_f3_800_black"
   }
 }

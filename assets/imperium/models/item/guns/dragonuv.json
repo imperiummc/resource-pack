@@ -1,7 +1,7 @@
 {
   "credit": "Designed by SebxteRv2 with Cubik Studio - https://cubik.studio",
   "textures": {
-    "layer0": "imperium:item/guns/dragonuv",
+    "0": "imperium:item/guns/dragonuv",
     "particle": "imperium:item/guns/dragonuv"
   },
   "elements": [

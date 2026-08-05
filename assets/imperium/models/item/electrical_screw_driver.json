@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer0": "imperium:item/electrical_screw_driver",
+    "0": "imperium:item/electrical_screw_driver",
     "particle": "imperium:item/electrical_screw_driver"
   },
   "elements": [
@@ -17343,7 +17343,7 @@
   },
   "groups": [
     {
-      "name": "layer1",
+      "name": "1",
       "origin": [
         -2,
         -7.875,
@@ -17382,7 +17382,7 @@
       ]
     },
     {
-      "name": "layer2",
+      "name": "2",
       "origin": [
         -2,
         -13.75,
@@ -17401,7 +17401,7 @@
       ]
     },
     {
-      "name": "layer3",
+      "name": "3",
       "origin": [
         0,
         0,
@@ -17410,7 +17410,7 @@
       "children": []
     },
     {
-      "name": "layer4",
+      "name": "4",
       "origin": [
         0,
         0,
@@ -17428,7 +17428,7 @@
       ]
     },
     {
-      "name": "layer5",
+      "name": "5",
       "origin": [
         0,
         0,
@@ -17465,7 +17465,7 @@
       ]
     },
     {
-      "name": "layer6",
+      "name": "6",
       "origin": [
         -2,
         -2,

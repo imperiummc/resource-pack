@@ -5,8 +5,8 @@
     1024
   ],
   "textures": {
-    "layer0": "imperium:item/vehicles/vrachauto",
-    "layer1": "imperium:item/vehicles/vrachauto_banner",
+    "0": "imperium:item/vehicles/vrachauto",
+    "1": "imperium:item/vehicles/vrachauto_banner",
     "particle": "imperium:item/vehicles/vrachauto"
   },
   "elements": [

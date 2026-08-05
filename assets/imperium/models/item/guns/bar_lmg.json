@@ -1,7 +1,7 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/guns/bar_lmg",
+    "0": "imperium:item/guns/bar_lmg",
     "particle": "imperium:item/guns/bar_lmg"
   },
   "elements": [
@@ -10727,7 +10727,7 @@
   },
   "groups": [
     {
-      "name": "layer1",
+      "name": "1",
       "origin": [
         6.18483,
         7.99216,
@@ -10745,7 +10745,7 @@
       ]
     },
     {
-      "name": "layer2",
+      "name": "2",
       "origin": [
         -5.07525,
         8.85446,
@@ -10773,7 +10773,7 @@
       ]
     },
     {
-      "name": "layer3",
+      "name": "3",
       "origin": [
         4.1875,
         6.625,
@@ -10791,7 +10791,7 @@
       ]
     },
     {
-      "name": "layer4",
+      "name": "4",
       "origin": [
         -0.3876,
         7.76247,
@@ -10814,7 +10814,7 @@
       ]
     },
     {
-      "name": "layer5",
+      "name": "5",
       "origin": [
         -12.78289,
         7.43407,
@@ -10843,7 +10843,7 @@
       ]
     },
     {
-      "name": "layer6",
+      "name": "6",
       "origin": [
         10.2216,
         11.47411,
@@ -10862,7 +10862,7 @@
       ]
     },
     {
-      "name": "layer7",
+      "name": "7",
       "origin": [
         0,
         0,
@@ -10873,7 +10873,7 @@
       "children": []
     },
     {
-      "name": "layer8",
+      "name": "8",
       "origin": [
         0,
         0,
@@ -10891,7 +10891,7 @@
       ]
     },
     {
-      "name": "layer9",
+      "name": "9",
       "origin": [
         0,
         0,

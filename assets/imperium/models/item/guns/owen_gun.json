@@ -1,7 +1,7 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/electrical_screw_driver",
+    "0": "imperium:item/electrical_screw_driver",
     "particle": "imperium:item/electrical_screw_driver"
   },
   "elements": [
@@ -14832,7 +14832,7 @@
   },
   "groups": [
     {
-      "name": "layer1",
+      "name": "1",
       "origin": [
         -13.53463,
         1.95438,
@@ -14874,7 +14874,7 @@
       ]
     },
     {
-      "name": "layer2",
+      "name": "2",
       "origin": [
         2.83133,
         3.00391,
@@ -14895,7 +14895,7 @@
       ]
     },
     {
-      "name": "layer3",
+      "name": "3",
       "origin": [
         7.66367,
         1.02778,
@@ -14928,7 +14928,7 @@
       ]
     },
     {
-      "name": "layer4",
+      "name": "4",
       "origin": [
         19.1008,
         0.38135,
@@ -14960,7 +14960,7 @@
       ]
     },
     {
-      "name": "layer5",
+      "name": "5",
       "origin": [
         0,
         0,
@@ -14971,7 +14971,7 @@
       "children": []
     },
     {
-      "name": "layer6",
+      "name": "6",
       "origin": [
         0,
         0,
@@ -14982,7 +14982,7 @@
       "children": []
     },
     {
-      "name": "layer7",
+      "name": "7",
       "origin": [
         0,
         0,
@@ -14996,7 +14996,7 @@
       ]
     },
     {
-      "name": "layer8",
+      "name": "8",
       "origin": [
         0,
         0,
@@ -15015,7 +15015,7 @@
       ]
     },
     {
-      "name": "layer9",
+      "name": "9",
       "origin": [
         9.089,
         3.74132,

@@ -1,6 +1,6 @@
 {
   "parent": "imperium:item/vehicles/mercedes_amg_g_r_2020",
   "textures": {
-    "layer0": "imperium:item/vehicles/mercedes_amg_g_r_2020_pro"
+    "0": "imperium:item/vehicles/mercedes_amg_g_r_2020_pro"
   }
 }

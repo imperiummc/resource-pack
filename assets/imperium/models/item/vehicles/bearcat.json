@@ -5,8 +5,8 @@
     64
   ],
   "textures": {
-    "layer0": "imperium:item/vehicles/bearcat",
-    "layer1": "imperium:item/vehicles/bearcat_bars",
+    "0": "imperium:item/vehicles/bearcat",
+    "1": "imperium:item/vehicles/bearcat_bars",
     "particle": "imperium:item/vehicles/bearcat"
   },
   "elements": [

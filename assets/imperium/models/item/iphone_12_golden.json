@@ -1,7 +1,7 @@
 {
   "parent": "imperium:item/iphone_12",
   "textures": {
-    "layer1": "imperium:item/iphone_12_golden_logo",
-    "layer2": "imperium:item/iphone_12_golden"
+    "1": "imperium:item/iphone_12_golden_logo",
+    "2": "imperium:item/iphone_12_golden"
   }
 }

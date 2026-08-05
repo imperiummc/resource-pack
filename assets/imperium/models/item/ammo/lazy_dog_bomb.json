@@ -1,7 +1,7 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/lazy_dog_bomb",
+    "0": "imperium:item/lazy_dog_bomb",
     "particle": "imperium:item/lazy_dog_bomb"
   },
   "elements": [

@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer0": "imperium:item/vehicles/tesla_model_s",
+    "0": "imperium:item/vehicles/tesla_model_s",
     "particle": "imperium:item/vehicles/tesla_model_s"
   },
   "elements": [

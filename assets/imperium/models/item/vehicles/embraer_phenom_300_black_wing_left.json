@@ -1,6 +1,6 @@
 {
   "parent": "imperium:item/vehicles/embraer_phenom_300_wing_left",
   "textures": {
-    "layer0": "imperium:item/vehicles/embraer_phenom_300_black"
+    "0": "imperium:item/vehicles/embraer_phenom_300_black"
   }
 }

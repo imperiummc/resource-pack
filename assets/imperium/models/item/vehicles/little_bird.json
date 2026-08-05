@@ -1,8 +1,8 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "layer0": "imperium:item/vehicles/little_bird",
-    "layer1": "imperium:item/vehicles/little_bird_propeller",
+    "0": "imperium:item/vehicles/little_bird",
+    "1": "imperium:item/vehicles/little_bird_propeller",
     "particle": "imperium:item/vehicles/seats_v2",
     "1_0": "imperium:item/vehicles/seats_v2",
     "1_1": "imperium:item/vehicles/seats_texture_v2"
@@ -36294,7 +36294,7 @@
   },
   "groups": [
     {
-      "name": "layer1",
+      "name": "1",
       "origin": [
         28.82641,
         0.47251,
@@ -36312,7 +36312,7 @@
       ]
     },
     {
-      "name": "layer2",
+      "name": "2",
       "origin": [
         22.225,
         0.5,
@@ -36328,7 +36328,7 @@
       ]
     },
     {
-      "name": "layer3",
+      "name": "3",
       "origin": [
         22.89537,
         10.49708,
@@ -36467,7 +36467,7 @@
       ]
     },
     {
-      "name": "layer4",
+      "name": "4",
       "origin": [
         20.43324,
         11.85044,
@@ -36493,7 +36493,7 @@
       ]
     },
     {
-      "name": "layer5",
+      "name": "5",
       "origin": [
         11.60398,
         10.37756,
@@ -36531,7 +36531,7 @@
       ]
     },
     {
-      "name": "layer6",
+      "name": "6",
       "origin": [
         3.7235,
         8.24136,
@@ -36547,7 +36547,7 @@
       ]
     },
     {
-      "name": "layer7",
+      "name": "7",
       "origin": [
         16.702,
         13.01837,
@@ -36574,7 +36574,7 @@
       ]
     },
     {
-      "name": "layer8",
+      "name": "8",
       "origin": [
         5.15646,
         11.67881,
@@ -36590,7 +36590,7 @@
       ]
     },
     {
-      "name": "layer9",
+      "name": "9",
       "origin": [
         -10.6125,
         7.725,
@@ -36642,7 +36642,7 @@
       ]
     },
     {
-      "name": "layer1",
+      "name": "1",
       "origin": [
         28.82641,
         0.47251,
@@ -36653,7 +36653,7 @@
       "children": []
     },
     {
-      "name": "layer4",
+      "name": "4",
       "origin": [
         20.43324,
         11.85044,
@@ -36778,7 +36778,7 @@
       "nbt": "{}",
       "children": [
         {
-          "name": "layer1",
+          "name": "1",
           "origin": [
             8,
             8,
@@ -36788,7 +36788,7 @@
           "nbt": "{}",
           "children": [
             {
-              "name": "layer1",
+              "name": "1",
               "origin": [
                 16.878,
                 14.4,
@@ -36802,7 +36802,7 @@
               ]
             },
             {
-              "name": "layer2",
+              "name": "2",
               "origin": [
                 16.878,
                 14.4,
@@ -36816,7 +36816,7 @@
               ]
             },
             {
-              "name": "layer3",
+              "name": "3",
               "origin": [
                 16.878,
                 14.4,
@@ -36830,7 +36830,7 @@
               ]
             },
             {
-              "name": "layer4",
+              "name": "4",
               "origin": [
                 16.878,
                 14.4,
@@ -36844,7 +36844,7 @@
               ]
             },
             {
-              "name": "layer5",
+              "name": "5",
               "origin": [
                 16.878,
                 14.4,
@@ -36858,7 +36858,7 @@
               ]
             },
             {
-              "name": "layer6",
+              "name": "6",
               "origin": [
                 16.878,
                 14.4,
@@ -36872,7 +36872,7 @@
               ]
             },
             {
-              "name": "layer7",
+              "name": "7",
               "origin": [
                 16.878,
                 14.4,
@@ -36886,7 +36886,7 @@
               ]
             },
             {
-              "name": "layer8",
+              "name": "8",
               "origin": [
                 16.878,
                 14.4,
@@ -36900,7 +36900,7 @@
               ]
             },
             {
-              "name": "layer1",
+              "name": "1",
               "origin": [
                 16.9,
                 14.4,
@@ -36914,7 +36914,7 @@
               ]
             },
             {
-              "name": "layer2",
+              "name": "2",
               "origin": [
                 16.9,
                 14.4,
@@ -36928,7 +36928,7 @@
               ]
             },
             {
-              "name": "layer3",
+              "name": "3",
               "origin": [
                 16.9,
                 14.4,
@@ -36942,7 +36942,7 @@
               ]
             },
             {
-              "name": "layer4",
+              "name": "4",
               "origin": [
                 16.9,
                 14.4,
@@ -36956,7 +36956,7 @@
               ]
             },
             {
-              "name": "layer5",
+              "name": "5",
               "origin": [
                 16.9,
                 14.4,
@@ -36970,7 +36970,7 @@
               ]
             },
             {
-              "name": "layer6",
+              "name": "6",
               "origin": [
                 16.9,
                 14.4,
@@ -36984,7 +36984,7 @@
               ]
             },
             {
-              "name": "layer7",
+              "name": "7",
               "origin": [
                 16.9,
                 14.4,
@@ -36998,7 +36998,7 @@
               ]
             },
             {
-              "name": "layer8",
+              "name": "8",
               "origin": [
                 16.9,
                 14.4,
@@ -37073,7 +37073,7 @@
       "nbt": "{}",
       "children": [
         {
-          "name": "layer1",
+          "name": "1",
           "origin": [
             0,
             0,
@@ -37089,7 +37089,7 @@
           ]
         },
         {
-          "name": "layer2",
+          "name": "2",
           "origin": [
             0,
             0,
@@ -37105,7 +37105,7 @@
           ]
         },
         {
-          "name": "layer3",
+          "name": "3",
           "origin": [
             0,
             0,
@@ -37121,7 +37121,7 @@
           ]
         },
         {
-          "name": "layer4",
+          "name": "4",
           "origin": [
             0,
             0,
@@ -37137,7 +37137,7 @@
           ]
         },
         {
-          "name": "layer5",
+          "name": "5",
           "origin": [
             0,
             0,
@@ -37153,7 +37153,7 @@
           ]
         },
         {
-          "name": "layer6",
+          "name": "6",
           "origin": [
             0,
             0,
@@ -37169,7 +37169,7 @@
           ]
         },
         {
-          "name": "layer7",
+          "name": "7",
           "origin": [
             0,
             0,
@@ -37185,7 +37185,7 @@
           ]
         },
         {
-          "name": "layer8",
+          "name": "8",
           "origin": [
             0,
             0,

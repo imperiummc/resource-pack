@@ -5,8 +5,8 @@
     8
   ],
   "textures": {
-    "layer0": "imperium:item/hats/extra_large_hat",
-    "layer1": "imperium:item/hats/extra_large_hat_logo",
+    "0": "imperium:item/hats/extra_large_hat",
+    "1": "imperium:item/hats/extra_large_hat_logo",
     "particle": "imperium:item/hats/extra_large_hat"
   },
   "elements": [

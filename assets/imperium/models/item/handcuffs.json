@@ -1,7 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "layer1": "imperium:item/handcuffs",
+    "1": "imperium:item/handcuffs",
     "particle": "imperium:item/handcuffs"
   },
   "elements": [

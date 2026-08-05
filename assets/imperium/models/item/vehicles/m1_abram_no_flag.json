@@ -1,7 +1,7 @@
 {
   "parent": "imperium:item/vehicles/m1_abram",
   "textures": {
-    "layer0": "imperium:item/vehicles/no_flag",
-    "layer1": "imperium:item/vehicles/m1_abram"
+    "0": "imperium:item/vehicles/no_flag",
+    "1": "imperium:item/vehicles/m1_abram"
   }
 }
