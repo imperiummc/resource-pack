@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/vehicles/ocelot_army_vehicle"
+    "0": "imperium:item/vehicles/ocelot_army_vehicle",
+    "particle": "imperium:item/vehicles/ocelot_army_vehicle"
   },
   "elements": [
     {

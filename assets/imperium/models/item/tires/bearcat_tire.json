@@ -5,7 +5,8 @@
     64
   ],
   "textures": {
-    "0": "imperium:item/vehicles/bearcat"
+    "0": "imperium:item/vehicles/bearcat",
+    "particle": "imperium:item/vehicles/bearcat"
   },
   "elements": [
     {

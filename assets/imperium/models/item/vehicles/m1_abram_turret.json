@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "imperium:item/vehicles/m1_abram"
+    "1": "imperium:item/vehicles/m1_abram",
+    "particle": "imperium:item/vehicles/m1_abram"
   },
   "elements": [
     {

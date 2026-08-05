@@ -2,7 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "texture": "imperium:item/vehicles/bmw_r1200rt",
-    "icons": "imperium:item/vehicles/bmw_r1200rt_icon"
+    "icons": "imperium:item/vehicles/bmw_r1200rt_icon",
+    "particle": "imperium:item/vehicles/bmw_r1200rt"
   },
   "elements": [
     {

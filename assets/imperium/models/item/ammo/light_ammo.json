@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/light_ammo"
+    "0": "imperium:item/light_ammo",
+    "particle": "imperium:item/light_ammo"
   },
   "elements": [
     {

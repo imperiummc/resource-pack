@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "texture": "imperium:item/guns/mp5k"
+    "texture": "imperium:item/guns/mp5k",
+    "particle": "imperium:item/guns/mp5k"
   },
   "elements": [
     {

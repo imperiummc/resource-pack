@@ -2,7 +2,8 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "imperium:item/vehicles/epic_e1000",
-    "1": "imperium:item/vehicles/propeller"
+    "1": "imperium:item/vehicles/propeller",
+    "particle": "imperium:item/vehicles/epic_e1000"
   },
   "elements": [
     {

@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/vehicles/volkswagon_bug"
+    "0": "imperium:item/vehicles/volkswagon_bug",
+    "particle": "imperium:item/vehicles/volkswagon_bug"
   },
   "elements": [
     {

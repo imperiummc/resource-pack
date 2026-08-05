@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/hats/military_beret"
+    "0": "imperium:item/hats/military_beret",
+    "particle": "imperium:item/hats/military_beret"
   },
   "elements": [
     {

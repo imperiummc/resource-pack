@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/flashbang"
+    "0": "imperium:item/flashbang",
+    "particle": "imperium:item/flashbang"
   },
   "elements": [
     {

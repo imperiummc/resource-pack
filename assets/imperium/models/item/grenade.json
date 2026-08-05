@@ -1,7 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/grenade"
+    "0": "imperium:item/grenade",
+    "particle": "imperium:item/grenade"
   },
   "elements": [
     {
