@@ -48,14 +48,11 @@ jobs:
           artifact-ids: ${{ needs.build.outputs.artifact-id }}
           skip-decompress: true
 
-      - name: List files
-        run: ls -R
-
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
           name: ImperiumMC ${{ github.ref_name }}
-          files: ImperiumMC.zip
+          files: ImperiumMC Resource Pack.zip
           prerelease: true
           fail_on_unmatched_files: true
           generate_release_notes: true
