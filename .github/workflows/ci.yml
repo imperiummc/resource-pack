@@ -11,37 +11,45 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
 
+    outputs:
+      artifact-id: ${{ steps.upload.outputs.artifact-id }}
+
     steps:
       - uses: actions/checkout@v7
-      - name: Zip
+      - name: pack.mcmeta
         run: |
           GITHUB_SHA=$(git rev-parse --short ${{ github.sha }})
           GITHUB_REF_NAME=$(echo ${{ github.ref_type == 'tag' && github.ref_name || 'dev' }})
           tmp="$(mktemp)"
           envsubst '${GITHUB_SHA},${GITHUB_REF_NAME}' <pack.mcmeta >"$tmp" && mv "$tmp" pack.mcmeta
-          zip -r "ImperiumMC.zip" assets/ pack.mcmeta pack.png
 
       - name: Upload
+        id: upload
         uses: actions/upload-artifact@v7
         with:
           name: ImperiumMC Resource Pack
-          path: ImperiumMC.zip
-          archive: false
+          path: |
+            assets/
+            pack.mcmeta
+            pack.png
           if-no-files-found: error
 
   release:
     name: Release
-    permissions:
-      contents: write
     needs: build
     if: ${{ github.ref_type == 'tag' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Download
-        uses: actions/download-artifact@v8
+      - uses: actions/download-artifact@v8
         with:
-          name: ImperiumMC.zip
+          artifact-ids: ${{ needs.build.outputs.artifact-id }}
+          skip-decompress: true
+
+      - name: List files
+        run: ls -R
 
       - name: Release
         uses: softprops/action-gh-release@v3
