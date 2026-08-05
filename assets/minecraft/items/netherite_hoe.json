@@ -125,14 +125,14 @@
       {
         "threshold": 18,
         "model": {
-          "model": "imperium:imperium:item/grenade",
+          "model": "imperium:item/grenade",
           "type": "minecraft:model"
         }
       },
       {
         "threshold": 19,
         "model": {
-          "model": "imperium:imperium:item/flashbang",
+          "model": "imperium:item/flashbang",
           "type": "minecraft:model"
         }
       },
@@ -153,14 +153,14 @@
       {
         "threshold": 22,
         "model": {
-          "model": "imperium:imperium:item/molotov_cocktail",
+          "model": "imperium:item/molotov_cocktail",
           "type": "minecraft:model"
         }
       },
       {
         "threshold": 23,
         "model": {
-          "model": "imperium:imperium:item/rocket",
+          "model": "imperium:item/rocket",
           "type": "minecraft:model"
         }
       },
