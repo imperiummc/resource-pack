@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "§9ImperiumMC Resource Pack §7v2.2\n§7play.imperium-mc.net §8${GITHUB_SHA}",
+    "description": "§9ImperiumMC Resource Pack §7${GITHUB_REF_NAME}\n§7play.imperium-mc.net §8${GITHUB_SHA}",
     "min_format": 88,
     "max_format": 88
   }

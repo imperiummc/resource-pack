@@ -18,8 +18,9 @@ jobs:
       - name: Zip
         run: |
           GITHUB_SHA=$(git rev-parse --short ${{ github.sha }})
+          GITHUB_REF_NAME=$(echo ${{ if github.ref_type == 'tag' && github.ref_name || 'dev' }})
           tmp="$(mktemp)"
-          envsubst '${GITHUB_SHA}' <pack.mcmeta >"$tmp" && mv "$tmp" pack.mcmeta
+          envsubst '${GITHUB_SHA},${GITHUB_REF_NAME}' <pack.mcmeta >"$tmp" && mv "$tmp" pack.mcmeta
           zip -r "ImperiumMC.zip" assets/ pack.mcmeta pack.png
 
       - name: Upload
