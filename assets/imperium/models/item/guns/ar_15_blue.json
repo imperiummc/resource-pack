@@ -6,8 +6,7 @@
   ],
   "textures": {
     "1": "imperium:item/guns/ar_15_blue",
-    "2": "imperium:item/guns/ar_15_blue_logo_2",
-    "particle": "imperium:item/guns/ar_15_blue"
+    "2": "imperium:item/guns/ar_15_blue_logo_2"
   },
   "elements": [
     {

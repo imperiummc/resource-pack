@@ -1,8 +1,8 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "0": "imperium:item/flashbang",
-    "particle": "imperium:item/flashbang"
+    "0": "imperium:item/napalm_bomb",
+    "particle": "imperium:item/napalm_bomb"
   },
   "elements": [
     {

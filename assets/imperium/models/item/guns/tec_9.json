@@ -1,8 +1,8 @@
 {
   "credit": "www.sebxter.pl",
   "textures": {
-    "0": "imperium:item/grenade",
-    "particle": "imperium:item/grenade"
+    "0": "imperium:item/guns/tec_9",
+    "particle": "imperium:item/guns/tec_9"
   },
   "elements": [
     {

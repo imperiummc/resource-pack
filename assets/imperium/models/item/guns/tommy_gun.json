@@ -6,8 +6,7 @@
   ],
   "textures": {
     "0": "imperium:item/guns/tommy_gun",
-    "1": "imperium:item/guns/tommy_gun_logo",
-    "particle": "imperium:item/guns/tommy_gun"
+    "1": "imperium:item/guns/tommy_gun_logo"
   },
   "elements": [
     {

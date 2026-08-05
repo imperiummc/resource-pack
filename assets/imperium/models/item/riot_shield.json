@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "imperium:item/riot_shield",
-    "1": "imperium:item/riot_shield_logo",
-    "particle": "imperium:item/riot_shield"
+    "1": "imperium:item/riot_shield_logo"
   },
   "elements": [
     {

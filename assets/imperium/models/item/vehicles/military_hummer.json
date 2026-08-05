@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "imperium:item/vehicles/military_hummer",
-    "1": "imperium:item/vehicles/flag",
-    "particle": "imperium:item/vehicles/military_hummer"
+    "1": "imperium:item/vehicles/flag"
   },
   "elements": [
     {

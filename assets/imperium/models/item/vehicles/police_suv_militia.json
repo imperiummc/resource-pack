@@ -1,8 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/rocket",
-    "particle": "imperium:item/rocket"
+    "0": "imperium:item/vehicles/police_suv_militia",
+    "2": "imperium:item/vehicles/police_suv_logo_2",
+    "particle": "imperium:item/vehicles/police_suv_logo_2"
   },
   "elements": [
     {

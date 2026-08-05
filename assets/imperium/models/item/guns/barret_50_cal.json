@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "texture": "imperium:item/guns/barret_50_cal",
-    "particle": "imperium:item/guns/barret_50_cal"
+    "texture": "imperium:item/guns/barret_50_cal"
   },
   "elements": [
     {

@@ -1,8 +1,7 @@
 {
   "credit": "Designed by SebxteRv2 with Cubik Studio - https://cubik.studio",
   "textures": {
-    "0": "imperium:item/guns/mosin",
-    "particle": "imperium:item/guns/mosin"
+    "0": "imperium:item/guns/mosin"
   },
   "elements": [
     {

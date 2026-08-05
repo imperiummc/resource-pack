@@ -5,9 +5,9 @@
     8
   ],
   "textures": {
-    "0": "imperium:item/riot_shield",
-    "1": "imperium:item/riot_shield_logo",
-    "particle": "imperium:item/riot_shield"
+    "0": "imperium:item/hats/bavarian_kaiserreich_colony_hat",
+    "1": "imperium:item/hats/bavarian_kaiserreich_colony_hat_logo",
+    "particle": "imperium:item/hats/bavarian_kaiserreich_colony_hat"
   },
   "elements": [
     {

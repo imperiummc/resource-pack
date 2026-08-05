@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/hats/anarcho_syndicalist_field_cap",
-    "particle": "imperium:item/hats/anarcho_syndicalist_field_cap"
+    "0": "imperium:item/hats/anarcho_syndicalist_field_cap"
   },
   "elements": [
     {

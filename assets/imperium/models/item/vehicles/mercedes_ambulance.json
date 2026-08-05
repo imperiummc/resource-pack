@@ -4,8 +4,7 @@
     "0": "imperium:item/vehicles/mercedes_ambulance",
     "2": "imperium:item/vehicles/mercedes_ambulance_textures",
     "3": "imperium:item/vehicles/mercedes_ambulance_logo",
-    "4": "imperium:item/vehicles/mercedes_ambulance_front",
-    "particle": "imperium:item/vehicles/mercedes_ambulance"
+    "4": "imperium:item/vehicles/mercedes_ambulance_front"
   },
   "elements": [
     {

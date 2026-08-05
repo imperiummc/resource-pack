@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/vehicles/boat",
-    "particle": "imperium:item/vehicles/boat"
+    "0": "imperium:item/vehicles/boat"
   },
   "elements": [
     {

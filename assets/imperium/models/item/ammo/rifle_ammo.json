@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/rifle_ammo",
-    "particle": "imperium:item/rifle_ammo"
+    "0": "imperium:item/rifle_ammo"
   },
   "elements": [
     {

@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "texture": "imperium:item/guns/desert_eagle",
-    "particle": "imperium:item/guns/desert_eagle"
+    "texture": "imperium:item/guns/desert_eagle"
   },
   "elements": [
     {

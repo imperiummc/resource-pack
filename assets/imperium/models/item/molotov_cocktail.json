@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/molotov_cocktail",
-    "particle": "imperium:item/molotov_cocktail"
+    "0": "imperium:item/molotov_cocktail"
   },
   "elements": [
     {

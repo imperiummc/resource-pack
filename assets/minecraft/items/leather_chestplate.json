@@ -2,6 +2,10 @@
   "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:damage",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather_chestplate"
+    },
     "entries": [
       {
         "threshold": 0.0125,
@@ -283,10 +287,6 @@
           "type": "minecraft:model"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/leather_chestplate"
-    }
+    ]
   }
 }

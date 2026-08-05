@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/pistol_silencer",
-    "particle": "imperium:item/pistol_silencer"
+    "0": "imperium:item/pistol_silencer"
   },
   "elements": [
     {

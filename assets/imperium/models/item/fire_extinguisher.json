@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "imperium:item/fire_extinguisher",
-    "particle": "imperium:item/fire_extinguisher"
+    "1": "imperium:item/fire_extinguisher"
   },
   "elements": [
     {

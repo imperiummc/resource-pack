@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/vehicles/metro_2",
-    "particle": "imperium:item/vehicles/metro_2"
+    "0": "imperium:item/vehicles/metro_2"
   },
   "elements": [
     {

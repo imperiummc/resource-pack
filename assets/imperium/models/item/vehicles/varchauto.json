@@ -6,8 +6,7 @@
   ],
   "textures": {
     "0": "imperium:item/vehicles/vrachauto",
-    "1": "imperium:item/vehicles/vrachauto_banner",
-    "particle": "imperium:item/vehicles/vrachauto"
+    "1": "imperium:item/vehicles/vrachauto_banner"
   },
   "elements": [
     {

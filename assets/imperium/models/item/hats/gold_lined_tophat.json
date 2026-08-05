@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/hats/gold_lined_tophat",
-    "particle": "imperium:item/hats/gold_lined_tophat"
+    "0": "imperium:item/hats/gold_lined_tophat"
   },
   "elements": [
     {

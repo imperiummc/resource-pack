@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "imperium:item/gas_can",
-    "particle": "imperium:item/gas_can"
+    "1": "imperium:item/gas_can"
   },
   "elements": [
     {

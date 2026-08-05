@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "imperium:item/vehicles/plane",
-    "1": "imperium:item/vehicles/plane_animation",
-    "particle": "imperium:item/vehicles/plane"
+    "1": "imperium:item/vehicles/plane_animation"
   },
   "elements": [
     {

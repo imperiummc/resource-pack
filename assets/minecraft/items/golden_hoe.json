@@ -2,6 +2,10 @@
   "model": {
     "type": "minecraft:range_dispatch",
     "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_hoe"
+    },
     "entries": [
       {
         "threshold": 1,
@@ -101,10 +105,6 @@
           "type": "minecraft:model"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/golden_hoe"
-    }
+    ]
   }
 }

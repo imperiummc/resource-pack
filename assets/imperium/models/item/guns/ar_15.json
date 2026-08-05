@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "imperium:item/guns/ar_15",
-    "particle": "imperium:item/guns/ar_15"
+    "1": "imperium:item/guns/ar_15"
   },
   "elements": [
     {

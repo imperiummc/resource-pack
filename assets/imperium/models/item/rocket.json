@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/rocket",
-    "particle": "imperium:item/rocket"
+    "0": "imperium:item/rocket"
   },
   "elements": [
     {

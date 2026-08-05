@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "imperium:item/vehicles/mercedes_maybach_s600_pullman",
-    "1": "imperium:item/vehicles/flag",
-    "particle": "imperium:item/vehicles/mercedes_maybach_s600_pullman"
+    "1": "imperium:item/vehicles/flag"
   },
   "elements": [
     {

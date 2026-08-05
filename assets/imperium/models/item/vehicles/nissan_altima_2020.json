@@ -1,8 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "imperium:item/vehicles/nissan_altima_2020",
-    "particle": "imperium:item/vehicles/nissan_altima_2020"
+    "0": "imperium:item/vehicles/nissan_altima_2020"
   },
   "elements": [
     {

@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "1": "imperium:item/samsung_galaxy_s20",
-    "2": "imperium:item/samsung_galaxy_s20_logo",
-    "particle": "imperium:item/samsung_galaxy_s20"
+    "2": "imperium:item/samsung_galaxy_s20_logo"
   },
   "elements": [
     {

@@ -1,9 +1,10 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "1": "imperium:item/iphone_12_logo",
-    "2": "imperium:item/iphone_12",
-    "particle": "imperium:item/iphone_12_logo"
+    "0": "imperium:item/guns/grenade_launch",
+    "1": "imperium:item/guns/tommy_gun_logo",
+    "2": "imperium:item/guns/tommy_gun_text",
+    "particle": "imperium:item/guns/tommy_gun_text"
   },
   "elements": [
     {
