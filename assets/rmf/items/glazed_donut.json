@@ -1,0 +1,20 @@
+{
+  "model": {
+    "cases": [
+      {
+        "model": {
+          "model": "rmf:item/cinnamon_bun",
+          "type": "minecraft:model"
+        },
+        "when": "Cinnamon Bun"
+      }
+    ],
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "model": "rmf:item/glazed_donut",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:component",
+    "type": "minecraft:select"
+  }
+}

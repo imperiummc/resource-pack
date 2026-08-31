@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed",
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "rmf:item/display_glass_bottle_model"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rmf:item/display_glass_bottle"
+    }
+  }
+}

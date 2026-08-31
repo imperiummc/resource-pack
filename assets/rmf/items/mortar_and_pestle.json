@@ -1,0 +1,219 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "fixed",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "cases": [
+            {
+              "when": "mortar_type:oak",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/oak_model"
+              }
+            },
+            {
+              "when": "mortar_type:birch",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/birch_model"
+              }
+            },
+            {
+              "when": "mortar_type:spruce",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/spruce_model"
+              }
+            },
+            {
+              "when": "mortar_type:dark_oak",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/dark_oak_model"
+              }
+            },
+            {
+              "when": "mortar_type:jungle",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/jungle_model"
+              }
+            },
+            {
+              "when": "mortar_type:mangrove",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/mangrove_model"
+              }
+            },
+            {
+              "when": "mortar_type:acacia",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/acacia_model"
+              }
+            },
+            {
+              "when": "mortar_type:pale_oak",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/pale_oak_model"
+              }
+            },
+            {
+              "when": "mortar_type:bamboo",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/bamboo_model"
+              }
+            },
+            {
+              "when": "mortar_type:crimson",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/crimson_model"
+              }
+            },
+            {
+              "when": "mortar_type:warped",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/warped_model"
+              }
+            },
+            {
+              "when": "mortar_type:cherry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/cherry_model"
+              }
+            },
+            {
+              "when": "mortar_type:brick",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/brick_model"
+              }
+            },
+            {
+              "when": "mortar_type:stone",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:block/mortar_and_pestle/stone_model"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "mortar_type:oak",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/oak_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:birch",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/birch_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:spruce",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/spruce_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:dark_oak",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/dark_oak_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:jungle",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/jungle_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:mangrove",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/mangrove_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:acacia",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/acacia_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:pale_oak",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/pale_oak_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:bamboo",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/bamboo_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:crimson",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/crimson_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:warped",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/warped_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:cherry",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/cherry_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:brick",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/brick_inventory"
+          }
+        },
+        {
+          "when": "mortar_type:stone",
+          "model": {
+            "type": "minecraft:model",
+            "model": "rmf:item/mortar_and_pestle/stone_inventory"
+          }
+        }
+      ]
+    }
+  }
+}

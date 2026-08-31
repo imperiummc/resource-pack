@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "rmf:item/salt_model"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rmf:item/salt"
+    }
+  }
+}

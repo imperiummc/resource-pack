@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_lefthand",
+          "firstperson_righthand",
+          "ground",
+          "gui",
+          "thirdperson_lefthand",
+          "thirdperson_righthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "rmf:item/straw_hat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rmf:item/straw_hat_model"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "rmf:item/marshmallow_stick_roast"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "rmf:item/marshmallow_stick"
+    }
+  }
+}

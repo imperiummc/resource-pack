@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:bundle/fullness",
+    "entries": [
+      {
+        "threshold": 0.01,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rmf:item/pizza_box_filled"
+        }
+      },
+      {
+        "threshold": 0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "on_shelf",
+              "model": {
+                "type": "minecraft:model",
+                "model": "rmf:item/pizza_box_filled"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rmf:item/pizza_box"
+          }
+        }
+      }
+    ]
+  }
+}

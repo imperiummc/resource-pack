@@ -1,0 +1,20 @@
+{
+  "model": {
+    "cases": [
+      {
+        "model": {
+          "model": "rmf:item/peach_princess",
+          "type": "minecraft:model"
+        },
+        "when": "Princess Peach"
+      }
+    ],
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "model": "rmf:item/peach",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:component",
+    "type": "minecraft:select"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "cases": [
+      {
+        "model": {
+          "model": "rmf:item/cooking_pot_water",
+          "type": "minecraft:model"
+        },
+        "when": "Pot of Water"
+      }
+    ],
+    "component": "minecraft:custom_name",
+    "fallback": {
+      "model": "rmf:item/cooking_pot",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:component",
+    "type": "minecraft:select"
+  }
+}

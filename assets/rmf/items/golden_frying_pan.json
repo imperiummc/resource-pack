@@ -1,0 +1,52 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "rmf:item/golden_frying_pan_inventory"
+        }
+      },
+      {
+        "when": [
+          "fixed",
+          "on_shelf"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "rmf:item/golden_frying_pan_cooking"
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rmf:item/golden_frying_pan_cooking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rmf:item/golden_frying_pan_model"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rmf:item/golden_frying_pan_model"
+    }
+  }
+}

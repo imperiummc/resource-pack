@@ -1,0 +1,167 @@
+{
+  "air": {
+    "sounds": [
+      "rmf:air"
+    ]
+  },
+  "item.baking_pan.bake": {
+    "sounds": [
+      "rmf:item/baking_pan/bake_1",
+      "rmf:item/baking_pan/bake_2"
+    ],
+    "subtitle": "subtitle.rmf.baking_pan.bake"
+  },
+  "item.cottage_cheese.eat": {
+    "sounds": [
+      "minecraft:block/honeyblock/slide1",
+      "minecraft:block/honeyblock/slide2",
+      "minecraft:block/honeyblock/slide3",
+      "minecraft:block/honeyblock/slide4"
+    ],
+    "subtitle": "subtitles.entity.generic.eat"
+  },
+  "item.cutting_board.use": {
+    "sounds": [
+      "rmf:item/cutting_board/cut_1",
+      "rmf:item/cutting_board/cut_2",
+      "rmf:item/cutting_board/cut_3",
+      "rmf:item/cutting_board/cut_4"
+    ],
+    "subtitle": "subtitle.rmf.cutting_board.use"
+  },
+  "item.dog_food.eat": {
+    "sounds": [
+      "rmf:item/dog_food/eat"
+    ],
+    "subtitle": "subtitle.rmf.dog_food.reaction"
+  },
+  "item.frying_pan.cook": {
+    "sounds": [
+      "rmf:item/frying_pan/cook_1",
+      "rmf:item/frying_pan/cook_2"
+    ],
+    "subtitle": "subtitle.rmf.frying_pan.cook"
+  },
+  "item.frying_pan.hit": {
+    "sounds": [
+      {
+        "name": "rmf:item/frying_pan/hit_1",
+        "weight": 3
+      },
+      {
+        "name": "rmf:item/frying_pan/hit_2",
+        "weight": 3
+      },
+      {
+        "name": "rmf:item/frying_pan/hit_3",
+        "weight": 3
+      },
+      {
+        "name": "rmf:item/frying_pan/hit_funny",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitle.rmf.frying_pan.hit"
+  },
+  "item.gold_trophy.use": {
+    "sounds": [
+      {
+        "name": "rmf:item/gold_trophy/use"
+      }
+    ],
+    "subtitle": "subtitle.rmf.gold_trophy.use"
+  },
+  "item.item_crate.fail": {
+    "sounds": [
+      "minecraft:item/bundle/insert_fail"
+    ],
+    "subtitle": "subtitle.rmf.item_crate.fail"
+  },
+  "item.item_crate.open": {
+    "sounds": [
+      "rmf:item/item_crate/open"
+    ],
+    "subtitle": "subtitle.rmf.item_crate.open"
+  },
+  "item.item_crate.store_item": {
+    "sounds": [
+      "minecraft:block/barrel/close"
+    ],
+    "subtitle": "subtitle.rmf.item_crate.store_item"
+  },
+  "item.juicer.shut": {
+    "sounds": [
+      "minecraft:block/decorated_pot/break1",
+      "minecraft:block/decorated_pot/break2",
+      "minecraft:block/decorated_pot/break3",
+      "minecraft:block/decorated_pot/break4"
+    ],
+    "subtitle": "subtitle.rmf.juicer.shut"
+  },
+  "item.juicer.squeeze": {
+    "sounds": [
+      "minecraft:block/sponge/absorb1",
+      "minecraft:block/sponge/absorb2"
+    ],
+    "subtitle": "subtitle.rmf.juicer.squeeze"
+  },
+  "item.mixing_bowl.empty": {
+    "sounds": [
+      "minecraft:step/grass1",
+      "minecraft:step/grass2",
+      "minecraft:step/grass3",
+      "minecraft:step/grass4",
+      "minecraft:step/grass5",
+      "minecraft:step/grass6"
+    ],
+    "subtitle": "subtitle.rmf.mixing_bowl.empty"
+  },
+  "item.mixing_bowl.use": {
+    "sounds": [
+      "rmf:item/mixing_bowl/use1",
+      "rmf:item/mixing_bowl/use2"
+    ],
+    "subtitle": "subtitle.rmf.mixing_bowl.use"
+  },
+  "item.mortar_and_pestle.use": {
+    "sounds": [
+      "minecraft:block/grindstone/grindstone1",
+      "minecraft:block/grindstone/grindstone2",
+      "minecraft:block/grindstone/grindstone3"
+    ],
+    "subtitle": "subtitle.rmf.mortar_and_pestle.use"
+  },
+  "organ_failure": {
+    "sounds": [
+      "rmf:organ_failure"
+    ],
+    "subtitle": "subtitle.rmf.organ_failure"
+  },
+  "item.popcorn_bag.fill": {
+    "sounds": [
+      "minecraft:block/leaf_litter/step1",
+      "minecraft:block/leaf_litter/step2",
+      "minecraft:block/leaf_litter/step3",
+      "minecraft:block/leaf_litter/step4",
+      "minecraft:block/leaf_litter/step5",
+      "minecraft:block/leaf_litter/step6"
+    ],
+    "subtitle": "subtitle.rmf.popcorn_bag.fill"
+  },
+  "item.shaker_cup.empty": {
+    "sounds": [
+      "minecraft:item/bucket/empty1",
+      "minecraft:item/bucket/empty2",
+      "minecraft:item/bucket/empty3"
+    ],
+    "subtitle": "subtitle.rmf.shaker_cup.empty"
+  },
+  "item.shaker_cup.shake": {
+    "sounds": [
+      "rmf:item/shaker_cup/shake_1",
+      "rmf:item/shaker_cup/shake_2",
+      "rmf:item/shaker_cup/shake_3"
+    ],
+    "subtitle": "subtitle.rmf.shaker_cup.shake"
+  }
+}
