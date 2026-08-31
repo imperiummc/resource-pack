@@ -1,0 +1,404 @@
+{
+  "model": {
+    "cases": [
+      {
+        "model": {
+          "model": "rmf:block/item_crate/apple",
+          "type": "minecraft:model"
+        },
+        "when": "contents:apple"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/beef",
+          "type": "minecraft:model"
+        },
+        "when": "contents:beef"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/blue_egg",
+          "type": "minecraft:model"
+        },
+        "when": "contents:blue_egg"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/brown_egg",
+          "type": "minecraft:model"
+        },
+        "when": "contents:brown_egg"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/brown_mushroom",
+          "type": "minecraft:model"
+        },
+        "when": "contents:brown_mushroom"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/carrot",
+          "type": "minecraft:model"
+        },
+        "when": "contents:carrot"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/dragon_fruit",
+          "type": "minecraft:model"
+        },
+        "when": "contents:dragon_fruit"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/pufferfish",
+          "type": "minecraft:model"
+        },
+        "when": "contents:pufferfish"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/charcoal",
+          "type": "minecraft:model"
+        },
+        "when": "contents:charcoal"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/chicken",
+          "type": "minecraft:model"
+        },
+        "when": "contents:chicken"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/cocoa_beans",
+          "type": "minecraft:model"
+        },
+        "when": "contents:cocoa_beans"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/cod",
+          "type": "minecraft:model"
+        },
+        "when": "contents:cod"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/egg",
+          "type": "minecraft:model"
+        },
+        "when": "contents:egg"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/glow_berries",
+          "type": "minecraft:model"
+        },
+        "when": "contents:glow_berries"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/mutton",
+          "type": "minecraft:model"
+        },
+        "when": "contents:mutton"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/porkchop",
+          "type": "minecraft:model"
+        },
+        "when": "contents:porkchop"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/potato",
+          "type": "minecraft:model"
+        },
+        "when": "contents:potato"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/rabbit",
+          "type": "minecraft:model"
+        },
+        "when": "contents:rabbit"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/red_mushroom",
+          "type": "minecraft:model"
+        },
+        "when": "contents:red_mushroom"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/salmon",
+          "type": "minecraft:model"
+        },
+        "when": "contents:salmon"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/sugar_cane",
+          "type": "minecraft:model"
+        },
+        "when": "contents:sugar_cane"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/sweet_berries",
+          "type": "minecraft:model"
+        },
+        "when": "contents:sweet_berries"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/wheat_seeds",
+          "type": "minecraft:model"
+        },
+        "when": "contents:wheat_seeds"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/melon_seeds",
+          "type": "minecraft:model"
+        },
+        "when": "contents:melon_seeds"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/pumpkin_seeds",
+          "type": "minecraft:model"
+        },
+        "when": "contents:pumpkin_seeds"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/taiga_beans",
+          "type": "minecraft:model"
+        },
+        "when": "contents:taiga_beans"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/tomato_seeds",
+          "type": "minecraft:model"
+        },
+        "when": "contents:tomato_seeds"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/tomato",
+          "type": "minecraft:model"
+        },
+        "when": "contents:tomato"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/pumpkin",
+          "type": "minecraft:model"
+        },
+        "when": "contents:pumpkin"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/ham",
+          "type": "minecraft:model"
+        },
+        "when": "contents:ham"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/popcorn_seeds",
+          "type": "minecraft:model"
+        },
+        "when": "contents:popcorn_seeds"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/popcorn_bag",
+          "type": "minecraft:model"
+        },
+        "when": "contents:popcorn_bag"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/orange",
+          "type": "minecraft:model"
+        },
+        "when": "contents:orange"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/vibrant_apple",
+          "type": "minecraft:model"
+        },
+        "when": "contents:vibrant_apple"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/pale_apple",
+          "type": "minecraft:model"
+        },
+        "when": "contents:pale_apple"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/mango",
+          "type": "minecraft:model"
+        },
+        "when": "contents:mango"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/banana",
+          "type": "minecraft:model"
+        },
+        "when": "contents:banana"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/peach",
+          "type": "minecraft:model"
+        },
+        "when": "contents:peach"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/coconut",
+          "type": "minecraft:model"
+        },
+        "when": "contents:coconut"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/coffee_beans",
+          "type": "minecraft:model"
+        },
+        "when": "contents:coffee_beans"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/strawberry",
+          "type": "minecraft:model"
+        },
+        "when": "contents:strawberry"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/raspberry",
+          "type": "minecraft:model"
+        },
+        "when": "contents:raspberry"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/blueberry",
+          "type": "minecraft:model"
+        },
+        "when": "contents:blueberry"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/blackberry",
+          "type": "minecraft:model"
+        },
+        "when": "contents:blackberry"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/corn",
+          "type": "minecraft:model"
+        },
+        "when": "contents:corn"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/rice",
+          "type": "minecraft:model"
+        },
+        "when": "contents:rice"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/pasta",
+          "type": "minecraft:model"
+        },
+        "when": "contents:pasta"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/seasoning",
+          "type": "minecraft:model"
+        },
+        "when": "contents:seasoning"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/water_barrel",
+          "type": "minecraft:model"
+        },
+        "when": "contents:water_barrel"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/milk_barrel",
+          "type": "minecraft:model"
+        },
+        "when": "contents:milk_barrel"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/vegetable_oil",
+          "type": "minecraft:model"
+        },
+        "when": "contents:vegetable_oil"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/vinegar",
+          "type": "minecraft:model"
+        },
+        "when": "contents:vinegar"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/salt",
+          "type": "minecraft:model"
+        },
+        "when": "contents:salt"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/nether_wart",
+          "type": "minecraft:model"
+        },
+        "when": "contents:nether_wart"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/lemon",
+          "type": "minecraft:model"
+        },
+        "when": "contents:lemon"
+      },
+      {
+        "model": {
+          "model": "rmf:block/item_crate/item_crate",
+          "type": "minecraft:model"
+        },
+        "when": "contents:item_crate"
+      }
+    ],
+    "fallback": {
+      "model": "rmf:block/item_crate/empty",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:custom_model_data",
+    "type": "minecraft:select"
+  }
+}

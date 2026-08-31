@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:bundle/has_selected_item",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "rmf:item/lunch_box_open"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "rmf:item/lunch_box"
+    }
+  }
+}

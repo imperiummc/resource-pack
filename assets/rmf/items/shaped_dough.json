@@ -1,0 +1,82 @@
+{
+  "model": {
+    "cases": [
+      {
+        "model": {
+          "model": "rmf:item/dough_baguette",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:baguette"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_pretzel",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:pretzel"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_nut",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:nut"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_croissant",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:croissant"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_muffin",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:muffin"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_cookie",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:cookie"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_cocoa_cookie",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:cocoa_cookie"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_honey_cookie",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:honey_cookie"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_berry_cookie",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:berry_cookie"
+      },
+      {
+        "model": {
+          "model": "rmf:item/dough_glow_berry_cookie",
+          "type": "minecraft:model"
+        },
+        "when": "dough_shape:glow_berry_cookie"
+      }
+    ],
+    "fallback": {
+      "model": "rmf:item/dough_shapeless",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:custom_model_data",
+    "type": "minecraft:select"
+  }
+}
