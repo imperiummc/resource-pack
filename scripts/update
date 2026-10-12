@@ -1,13 +1,16 @@
 #!/usr/bin/env -S java --source 25
 
+import java.io.BufferedWriter;
+import java.io.OutputStreamWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.util.HexFormat;
-import java.util.Properties;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.UUID;
 
-private static final String URL = "https://github.com/imperiummc/resource-pack/releases/latest/download/ImperiumMC.Resource.Pack.zip";
+private static final String URL = "https\\://github.com/imperiummc/resource-pack/releases/latest/download/ImperiumMC.Resource.Pack.zip";
 
 // gh release download -R imperiummc/resource-pack --output - v2.4.2 | ./scripts/update
 void main(final String[] args) {
@@ -19,21 +22,28 @@ void main(final String[] args) {
             return;
         }
 
-        final var properties = new Properties(4);
-        properties.setProperty("resource-pack", URL);
-        properties.setProperty("resource-pack-prompt", "");
-
         final var sha1 = MessageDigest.getInstance("SHA-1");
         final byte[] hash = sha1.digest(input);
 
-        final UUID resourcePackId = UUID.nameUUIDFromBytes(hash);
-        properties.setProperty("resource-pack-id", resourcePackId.toString());
-
-        final String resourcePackSha1 = HexFormat.of().formatHex(hash);
-        properties.setProperty("resource-pack-sha1", resourcePackSha1);
-        properties.store(System.out, null);
+        final var properties = properties(UUID.nameUUIDFromBytes(hash), HexFormat.of().formatHex(hash));
+        try (final var writer = new BufferedWriter(new OutputStreamWriter(System.out))) {
+            for (final var entry : properties.entrySet()) {
+                writer.write(entry.getKey() + "=" + entry.getValue());
+                writer.newLine();
+            }
+            writer.flush();
+        }
     } catch (final Exception e) {
         System.err.printf("error: %s\n", e.getMessage());
         System.exit(1);
     }
+}
+
+private Map<String, String> properties(final UUID id, final String sha1) {
+    final var properties = new LinkedHashMap<String, String>();
+    properties.put("resource-pack", URL);
+    properties.put("resource-pack-id", id.toString());
+    properties.put("resource-pack-prompt", "");
+    properties.put("resource-pack-sha1", sha1);
+    return properties;
 }
