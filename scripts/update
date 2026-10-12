@@ -1,0 +1,39 @@
+#!/usr/bin/env -S java --source 25
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.security.MessageDigest;
+import java.util.HexFormat;
+import java.util.Properties;
+import java.util.UUID;
+
+private static final String URL = "https://github.com/imperiummc/resource-pack/releases/latest/download/ImperiumMC.Resource.Pack.zip";
+
+// gh release download -R imperiummc/resource-pack --output - v2.4.2 | ./scripts/update
+void main(final String[] args) {
+    final Path file = args.length > 0 ? Path.of(args[0]) : null;
+    try {
+        final byte[] input = file != null ? Files.readAllBytes(file) : System.in.readAllBytes();
+        if (input.length == 0) {
+            System.err.println("error: input is empty");
+            return;
+        }
+
+        final var properties = new Properties(4);
+        properties.setProperty("resource-pack", URL);
+        properties.setProperty("resource-pack-prompt", "");
+
+        final var sha1 = MessageDigest.getInstance("SHA-1");
+        final byte[] hash = sha1.digest(input);
+
+        final UUID resourcePackId = UUID.nameUUIDFromBytes(hash);
+        properties.setProperty("resource-pack-id", resourcePackId.toString());
+
+        final String resourcePackSha1 = HexFormat.of().formatHex(hash);
+        properties.setProperty("resource-pack-sha1", resourcePackSha1);
+        properties.store(System.out, null);
+    } catch (final Exception e) {
+        System.err.printf("error: %s\n", e.getMessage());
+        System.exit(1);
+    }
+}
