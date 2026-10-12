@@ -53,6 +53,6 @@ jobs:
         with:
           name: ImperiumMC ${{ github.ref_name }}
           files: ImperiumMC Resource Pack.zip
-          prerelease: true
+          draft: true
           fail_on_unmatched_files: true
           generate_release_notes: true
