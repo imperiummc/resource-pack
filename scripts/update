@@ -10,9 +10,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;
 
-private static final String URL = "https\\://github.com/imperiummc/resource-pack/releases/latest/download/ImperiumMC.Resource.Pack.zip";
+private static final String URL = "https\\://github.com/imperiummc/resourcepack/releases/latest/download/ImperiumMC.Resource.Pack.zip";
 
-// gh release download -R imperiummc/resource-pack --output - v2.4.2 | ./scripts/update
+// gh release download -R imperiummc/resource-pack --output - v2.4.3 | ./scripts/update
 void main(final String[] args) {
     final Path file = args.length > 0 ? Path.of(args[0]) : null;
     try {
